@@ -65,7 +65,7 @@ export default function Features() {
 			<div className="@container mx-auto max-w-5xl px-6">
 				<div className="text-center">
 					<h2 className="text-balance text-4xl font-medium lg:text-5xl">
-						Built for the Solana ecosystem
+						Built from the Ethereum ecosystem
 					</h2>
 					<p className="mt-4">
 						SnapChain delivers the speed, security, and scalability you need for

@@ -35,7 +35,7 @@ const Logo = ({
 					<span
 						className={`ml-2 font-medium text-xl  translate-y-0.5 text-white text-transparent bg-clip-text ${textClassName}  `}
 					>
-						Truedocs
+						TrustChain
 					</span>
 				)}
 			</Link>

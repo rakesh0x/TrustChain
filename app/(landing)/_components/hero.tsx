@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button'
 import { InfiniteSlider } from '@/components/ui/infinite-slider';
 import { ProgressiveBlur } from '@/components/ui/progressive-blur'
 import { TextEffect } from '@/components/ui/text-effect';
+import { siEthereum, siNextdotjs, siReact, siShadcnui, siWagmi, siEthers, siSolidity, } from 'simple-icons'
 import { ArrowRight } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -73,7 +74,7 @@ const CTAButtons = () => (
 				className='rounded-none px-4 text-sm'
 			>
 				<Link href='/smart-contracts'>
-					<span className='text-nowrap'>Start Building</span>
+					<span className='text-nowrap'>Start Uploading</span>
 				</Link>
 			</Button>
 		</div>
@@ -92,87 +93,58 @@ const CTAButtons = () => (
 );
 
 // Reusable tech slider component
-const TechSlider = () => (
-	<div className='relative py-6 md:w-[calc(100%-11rem)]'>
-		<InfiniteSlider
-			speedOnHover={20}
-			speed={40}
-			gap={80}
-		>
-			<TechLogo
-				src='/images/tech/solana.svg'
-				alt='Solana Logo'
-				height={20}
-				width={20}
-				className='h-8'
-			/>
-			<TechLogo
-				src='/images/tech/nextjs.svg'
-				alt='Next.js Logo'
-				height={16}
-				width={16}
-				className='h-5'
-			/>
-			<TechLogo
-				src='/images/tech/rust.svg'
-				alt='Rust Logo'
-				height={16}
-				width={16}
-				className='h-8'
-			/>
-			<TechLogo
-				src='/images/tech/react.svg'
-				alt='React Logo'
-				height={20}
-				width={20}
-				className='h-8'
-			/>
-			<TechLogo
-				src='/images/tech/solana.svg'
-				alt='Solana Logo'
-				height={20}
-				width={20}
-				className='h-8'
-			/>
-			<TechLogo
-				src='/images/tech/rust.svg'
-				alt='Rust Logo'
-				height={16}
-				width={16}
-				className='h-8'
-			/>
-			<TechLogo
-				src='/images/tech/nextjs.svg'
-				alt='Next.js Logo'
-				height={28}
-				width={28}
-				className='h-5'
-			/>
-			<TechLogo
-				src='/images/tech/react.svg'
-				alt='Solana Logo'
-				height={24}
-				width={24}
-				className='h-8'
-			/>
-		</InfiniteSlider>
+const TechSlider = () => {
+	const icons = [
+		siEthereum,
+		siNextdotjs,
+		siReact,
+		siShadcnui,
+		siWagmi,
+		siEthers,
+		siSolidity,
+	];
+	return (
+		<div className='relative py-6 md:w-[calc(100%-11rem)]'>
+			<InfiniteSlider
+				speedOnHover={20}
+				speed={40}
+				gap={80}
+			>
+				{icons.map((icon, index) => (
+					<SimpleIcon key={index} icon={icon} />
+				))}
+			</InfiniteSlider>
 
-		<div className='bg-linear-to-r from-background absolute inset-y-0 left-0 w-20'></div>
-		<div className='bg-linear-to-l from-background absolute inset-y-0 right-0 w-20'></div>
-		<ProgressiveBlur
-			className='pointer-events-none absolute left-0 top-0 h-full w-20'
-			direction='left'
-			blurIntensity={1}
-		/>
-		<ProgressiveBlur
-			className='pointer-events-none absolute right-0 top-0 h-full w-20'
-			direction='right'
-			blurIntensity={1}
+			<div className='bg-linear-to-r from-background absolute inset-y-0 left-0 w-20'></div>
+			<div className='bg-linear-to-l from-background absolute inset-y-0 right-0 w-20'></div>
+			<ProgressiveBlur
+				className='pointer-events-none absolute left-0 top-0 h-full w-20'
+				direction='left'
+				blurIntensity={1}
+			/>
+			<ProgressiveBlur
+				className='pointer-events-none absolute right-0 top-0 h-full w-20'
+				direction='right'
+				blurIntensity={1}
+			/>
+		</div>
+	);
+};
+
+// New SimpleIcon component to render simple-icons SVGs
+const SimpleIcon = ({ icon }: { icon: any }) => (
+	<div className='flex items-center justify-center h-8 w-8 dark:invert'>
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			viewBox="0 0 24 24"
+			fill={icon.hex ? `#${icon.hex}` : 'currentColor'}
+			className='h-full w-full'
+			dangerouslySetInnerHTML={{ __html: icon.svg }}
 		/>
 	</div>
 );
 
-// Reusable tech logo component
+// Reusable tech logo component (no longer used for simple-icons)
 const TechLogo = ({
 	src,
 	alt,
@@ -206,28 +178,15 @@ const Hero = () => {
 						<div className='text-center sm:mx-auto lg:mr-auto lg:mt-0'>
 							<AnimatedLink
 								href='#link'
-								text='Build Smart Contracts Visually'
+								text='Get your documents on-chain'
 							/>
 
-							<TextEffect
-								preset='fade-in-blur'
-								speedSegment={0.3}
-								as='h1'
-								className='mt-8 text-balance text-6xl  lg:mt-16 '
-							>
-								Snap Chain: Visual Smart Contract Builder
-							</TextEffect>
-							<TextEffect
-								per='line'
-								preset='fade-in-blur'
-								speedSegment={0.3}
-								delay={0.5}
-								as='p'
-								className='mx-auto mt-6 max-w-3xl text-balance text-base'
-							>
-								Create powerful blockchain smart contracts by simply snapping blocks together. No
-								coding required - build, test, and deploy with confidence.
-							</TextEffect>
+							<h1 className='mt-8 text-balance text-6xl lg:mt-16 text-white text-wrap'>
+								Trust Chain: On-Chain Proof. Off-Chain Trust.
+							</h1>
+							<p className='mx-auto mt-6 max-w-3xl text-balance text-base text-white'>
+								Blockchain powered doucments store, where you can Register, verify, and secure credentials with zero chance of tampering.
+							</p>
 
 							<CTAButtons />
 						</div>
