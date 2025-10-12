@@ -144,7 +144,7 @@ const SimpleIcon = ({ icon }: { icon: any }) => (
 	</div>
 );
 
-const Hero = () => {
+export const Hero = () => {
 	return (
 		<>
 			<section className=''>
