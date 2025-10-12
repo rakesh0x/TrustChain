@@ -9,6 +9,7 @@ import { ArrowRight } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 
+
 const transitionVariants = {
 	item: {
 		hidden: {
@@ -139,7 +140,6 @@ const SimpleIcon = ({ icon }: { icon: any }) => (
 			viewBox="0 0 24 24"
 			fill={icon.hex ? `#${icon.hex}` : 'currentColor'}
 			className='h-full w-full'
-			dangerouslySetInnerHTML={{ __html: icon.svg }}
 		/>
 	</div>
 );
