@@ -1,0 +1,16 @@
+{
+  "[project]/Documents/Projects/Truedocs/truedocs/components/ui/infinite-slider.tsx [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/Documents/Projects/Truedocs/truedocs/components/ui/infinite-slider.tsx [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/Documents_Projects_Truedocs_truedocs_01d3bbf9._.js",
+      "static/chunks/Documents_Projects_Truedocs_truedocs_components_ui_infinite-slider_tsx_a8345e5e._.js"
+    ]
+  },
+  "[project]/Documents/Projects/Truedocs/truedocs/components/ui/progressive-blur.tsx [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/Documents/Projects/Truedocs/truedocs/components/ui/progressive-blur.tsx [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/Documents_Projects_Truedocs_truedocs_components_ui_progressive-blur_tsx_3ef95d4f._.js",
+      "static/chunks/Documents_Projects_Truedocs_truedocs_components_ui_progressive-blur_tsx_a8345e5e._.js"
+    ]
+  }
+}
