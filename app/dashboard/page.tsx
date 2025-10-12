@@ -30,13 +30,6 @@ export default function Home() {
       alert("Trouble uploading file");
     }
   };
-
-  const getFile = async () => {
-    try {
-      
-    }
-  }
-
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFile(e.target?.files?.[0]);
   };
