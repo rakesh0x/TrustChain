@@ -31,6 +31,12 @@ export default function Home() {
     }
   };
 
+  const getFile = async () => {
+    try {
+      
+    }
+  }
+
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFile(e.target?.files?.[0]);
   };
@@ -41,7 +47,6 @@ export default function Home() {
             <button type="button" disabled={uploading} onClick={uploadFile}>
                 {uploading ? "Uploading..." : "Upload"}
             </button>
-            {/* Add a conditional looking for the signed url and use it as the source */}
             {url && <img src={url} alt="Image from Pinata" />}
         </main>
   );

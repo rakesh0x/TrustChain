@@ -1,9 +1,9 @@
-'use client';
+"use client";
+
 import { AnimatedGroup } from '@/components/ui/animated-group';
 import { Button } from '@/components/ui/button'
 import { InfiniteSlider } from '@/components/ui/infinite-slider';
 import { ProgressiveBlur } from '@/components/ui/progressive-blur'
-import { TextEffect } from '@/components/ui/text-effect';
 import { siEthereum, siNextdotjs, siReact, siShadcnui, siWagmi, siEthers, siSolidity, } from 'simple-icons'
 import { ArrowRight } from 'lucide-react';
 import Image from 'next/image';
@@ -25,7 +25,7 @@ const transitionVariants = {
 };
 
 // Reusable animated link component
-const AnimatedLink = ({ href, text }: { href: string; text: string }) => (
+export const AnimatedLink = ({ href, text }: { href: string; text: string }) => (
 	<AnimatedGroup variants={transitionVariants}>
 		<Link
 			href={href}
@@ -140,31 +140,6 @@ const SimpleIcon = ({ icon }: { icon: any }) => (
 			fill={icon.hex ? `#${icon.hex}` : 'currentColor'}
 			className='h-full w-full'
 			dangerouslySetInnerHTML={{ __html: icon.svg }}
-		/>
-	</div>
-);
-
-// Reusable tech logo component (no longer used for simple-icons)
-const TechLogo = ({
-	src,
-	alt,
-	height,
-	width,
-	className,
-}: {
-	src: string;
-	alt: string;
-	height: number;
-	width: number;
-	className: string;
-}) => (
-	<div className='flex'>
-		<Image
-			className={`mx-auto w-auto dark:invert ${className}`}
-			src={src}
-			alt={alt}
-			height={height}
-			width={width}
 		/>
 	</div>
 );
