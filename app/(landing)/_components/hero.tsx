@@ -181,10 +181,10 @@ const Hero = () => {
 								text='Get your documents on-chain'
 							/>
 
-							<h1 className='mt-8 text-balance text-6xl lg:mt-16 text-white text-wrap'>
+							<h1 className='mt-8 text-balance text-6xl lg:mt-16 text-wrap'>
 								Trust Chain: On-Chain Proof. Off-Chain Trust.
 							</h1>
-							<p className='mx-auto mt-6 max-w-3xl text-balance text-base text-white'>
+							<p className='mx-auto mt-6 max-w-3xl text-balance text-base'>
 								Blockchain powered doucments store, where you can Register, verify, and secure credentials with zero chance of tampering.
 							</p>
 

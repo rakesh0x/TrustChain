@@ -4,6 +4,8 @@ import Navbar from "./(landing)/_components/navbar";
 import CTA from "./(landing)/_components/cts";
 import Footer from "./(landing)/_components/footer";
 import Pricing from "@/components/pricing";
+import { WagmiProvider } from "wagmi";
+import { config } from './config';
 
 const page = () => {
 	return (

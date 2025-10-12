@@ -33,7 +33,7 @@ const Logo = ({
 				{logoContent}
 				{!iconOnly && (
 					<span
-						className={`ml-2 font-medium text-xl  translate-y-0.5 text-white text-transparent bg-clip-text ${textClassName}  `}
+						className={`ml-2 font-medium text-xl  translate-y-0.5 bg-clip-text ${textClassName}`}
 					>
 						TrustChain
 					</span>

@@ -68,8 +68,7 @@ export default function Features() {
 						Built from the Ethereum ecosystem
 					</h2>
 					<p className="mt-4">
-						SnapChain delivers the speed, security, and scalability you need for
-						next-generation blockchain applications.
+						TrustChain delivers the speed, security, and scalability you need for Uploading your documents safe and secure
 					</p>
 				</div>
 				<Card className="@min-4xl:max-w-full rounded-none p-0 @min-4xl:grid-cols-3 @min-4xl:divide-x @min-4xl:divide-y-0 mx-auto mt-8 grid max-w-sm divide-y overflow-hidden shadow-zinc-950/5 *:text-center md:mt-16">
