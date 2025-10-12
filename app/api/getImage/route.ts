@@ -1,23 +1,21 @@
-import { NextApiRequest, NextApiResponse } from "next";
-import { pinata } from "../../image-store/pinata-config";
+import { NextResponse, type NextRequest } from "next/server";
 
-export default async function handler(req:NextApiRequest, res:NextApiResponse) {
-  if (req.method === "GET") {
-    try {
-      const { cid } = req.query;
-      if (!cid || typeof cid !== "string") {
-        return res.status(400).json({ error: "CID is required" });
-      }
-
-      const gatewayUrl = `https://apricot-realistic-bobolink-877.mypinata.cloud/${cid}`;
-
-      res.status(200).json({ gatewayUrl });
-    } catch (error: any) {
-      console.error("error retrieving image from pinata", error.message || error);
-      res.status(500).json({ error: "Failed to retrieve image", details: error.message || "Unknown error" });
+export async function GET(request: NextRequest) {
+  try {
+    const { searchParams } = new URL(request.url);
+    const cid = searchParams.get("cid");
+    if (!cid) {
+      return NextResponse.json({ error: "CID is required" }, { status: 400 });
     }
-  } else {
-    res.setHeader("Allow", ["GET"]);
-    res.status(405).end(`Method ${req.method} Not Allowed`);
+
+    const gatewayUrl = `${process.env.NEXT_PUBLIC_GATEWAY_URL}/${cid}`;
+
+    return NextResponse.json({ gatewayUrl }, { status: 200 });
+  } catch (error: any) {
+    console.error("error retrieving image from pinata", error.message || error);
+    return NextResponse.json(
+      { error: "Failed to retrieve image", details: error.message || "Unknown error" },
+      { status: 500 }
+    );
   }
 }

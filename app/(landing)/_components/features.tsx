@@ -2,7 +2,6 @@ import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Shield, Zap, Coins } from "lucide-react";
 import { ReactNode } from "react";
 
-// Feature card component
 interface FeatureCardProps {
 	icon: ReactNode;
 	title: string;
@@ -21,7 +20,6 @@ const FeatureCard = ({ icon, title, description }: FeatureCardProps) => (
 	</div>
 );
 
-// Card decorator component
 const CardDecorator = ({ children }: { children: ReactNode }) => (
 	<div className="relative mx-auto size-36 duration-200 [--color-border:color-mix(in_oklab,var(--color-zinc-950)10%,transparent)] group-hover:[--color-border:color-mix(in_oklab,var(--color-zinc-950)20%,transparent)] dark:[--color-border:color-mix(in_oklab,var(--color-white)15%,transparent)] dark:group-hover:bg-white/5 dark:group-hover:[--color-border:color-mix(in_oklab,var(--color-white)20%,transparent)]">
 		<div
