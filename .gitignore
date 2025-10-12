@@ -4,6 +4,9 @@
 # Compilation output
 /dist
 
+# build files
+/.next
+
 # pnpm deploy output
 /bundle
 
