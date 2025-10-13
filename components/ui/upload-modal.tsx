@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Button } from "./button";
+import { Button } from "./button.js";
 import {
   Dialog,
   DialogContent,
@@ -9,16 +9,16 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "./dialog";
-import { Input } from "./input";
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "./card";
-import { useToast } from "./use-toast";
-import trustchain from "../../contracts/trustchain.json"
+} from "./dialog.js";
+import { Input } from "./input.js";
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "./card.js";
+import { useToast } from "./use-toast.js";
+import { TRUSTCHAIN_ABI } from "../../lib/contract-abi.js";
 
 
 interface UploadModalProps {
   onUpload: (file: File) => Promise<void>; // Modified to return a Promise
-  uploading: boolean;
+  uploading: boolean;``
 }
 
 export function UploadModal({ onUpload, uploading }: UploadModalProps) {
@@ -29,7 +29,9 @@ export function UploadModal({ onUpload, uploading }: UploadModalProps) {
   const ContractAddress = process.env.NEXT_PUBLIC_CONTRACT_ADDRESS;
   
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setFile(e.target.files?.[0]);
+    if (e.target.files) {
+      setFile(e.target.files[0]);
+    }
   };
 
   const handleSubmit = async () => {

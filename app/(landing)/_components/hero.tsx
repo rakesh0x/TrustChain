@@ -1,15 +1,15 @@
 "use client";
 
 import dynamic from 'next/dynamic';
-import { AnimatedGroup } from '@/components/ui/animated-group';
-import { Button } from '@/components/ui/button';
+import { AnimatedGroup } from '../../../components/ui/animated-group';
+import { Button } from '../../../components/ui/button';
 import { siEthereum, siNextdotjs, siReact, siShadcnui, siWagmi, siEthers, siSolidity } from 'simple-icons';
 import { ArrowRight } from 'lucide-react';
 import Link from 'next/link';
 
 // Dynamically import SSR-incompatible components
-const InfiniteSlider = dynamic(() => import('@/components/ui/infinite-slider').then((mod) => mod.InfiniteSlider), { ssr: false });
-const ProgressiveBlur = dynamic(() => import('@/components/ui/progressive-blur').then((mod) => mod.ProgressiveBlur), { ssr: false });
+const InfiniteSlider = dynamic(() => import('../../../components/ui/infinite-slider').then((mod) => mod.InfiniteSlider), { ssr: false });
+const ProgressiveBlur = dynamic(() => import('../../../components/ui/progressive-blur').then((mod) => mod.ProgressiveBlur), { ssr: false });
 
 const transitionVariants = {
   item: {

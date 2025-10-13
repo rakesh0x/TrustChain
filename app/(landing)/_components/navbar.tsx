@@ -1,11 +1,11 @@
 "use client";
-import Logo from "@/components/ui/Logo";
-import { Button } from "@/components/ui/button";
+import Logo from "../../../components/ui/Logo";
+import { Button } from "../../../components/ui/button";
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
-import { ModeToggle } from "@/components/ui/theme-toggle";
-import { ConnectWalletButton } from "@/components/ui/connect-wallet-button";
+import { ModeToggle } from "../../../components/ui/theme-toggle";
+import { ConnectWalletButton } from "../../../components/ui/connect-wallet-button";
 
 const Navbar = () => {
 	const [mobileMenuOpen, setMobileMenuOpen] = useState(false);

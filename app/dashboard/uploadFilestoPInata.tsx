@@ -1,10 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import { UploadModal } from "../../components/ui/upload-modal";
+import { UploadModal } from "../../components/ui/upload-modal.js";
 import { ethers } from "ethers";
-import trustchain from "../../contracts/trustchain.json"
+import { TRUSTCHAIN_ABI } from "../../lib/contract-abi.js";
 import { transactionType } from "viem";
+
+declare const window: Window & typeof globalThis & { ethereum?: any };
 
 export default function UploadFiles() {
   const [url, setUrl] = useState("");
@@ -27,24 +29,26 @@ export default function UploadFiles() {
       const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join(''); 
       console.log("sha256 hash", hashHex);  
 
-      const ethereum = (window.ethereum as any)?.providers?.find(
-        (p: any) => p.isMetaMask
-      ) || window.ethereum;
-
-      if(ethereum || !ethereum.metamask) {
+      if(typeof window !== 'undefined' && window.ethereum) {
         console.log("window.ethereum", window.ethereum);
         console.log("isMetaMask?", window.ethereum?.isMetaMask);
-          alert("Please install MetaMask and use it to interact with this app.");
-          const provider = new ethers.BrowserProvider(window.ethereum);
+        
+        const ethereumProvider = window.ethereum.providers?.find((p: any) => p.isMetaMask) || window.ethereum;
+
+        if (ethereumProvider) {
+          const provider = new ethers.BrowserProvider(ethereumProvider);
           const signer = await provider.getSigner();
-          const contract = new ethers.Contract(ContractAddress!, trustchain, signer);
+          const contract = new ethers.Contract(ContractAddress!, TRUSTCHAIN_ABI, signer);
 
           const tx = await contract.storeHash(hashHex)
 
           await tx.wait();
           console.log("Transaction Sent: ", tx.hash);
-      } else {
-        alert("please install metamask");
+        } else {
+          alert("Please install MetaMask to interact with this app.");
+        }
+      } else if (typeof window !== 'undefined') {
+        alert("Please install MetaMask");
       }
 
 
@@ -54,7 +58,6 @@ export default function UploadFiles() {
     } catch (e: any) {
       console.error("error during uploadfile:", e)
       setUploading(false);
-      alert("Trouble uploading file: " + (e?.message || e));
     }
   };
 
