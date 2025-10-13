@@ -22,4 +22,4 @@
 # Hardhat coverage reports
 /coverage
 
-/.env.local
+/.env.local.next
