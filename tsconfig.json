@@ -14,6 +14,10 @@
     "noEmit": true,
     "incremental": true,
     "isolatedModules": true,
+    "allowImportingTsExtensions": true,
+    "paths": {
+      "@/*": ["./*"]
+    },
     "plugins": [
       {
         "name": "next"
@@ -25,7 +29,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts"
-  ],
+, "scripts/deploy.cjs"  ],
   "exclude": [
     "node_modules"
   ]

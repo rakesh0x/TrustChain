@@ -1,6 +1,6 @@
 'use client';
 
-import { Button } from "@/components/ui/button";
+import { Button } from "../ui/button";
 import { useConnect, useAccount, useDisconnect } from 'wagmi';
 import { injected } from 'wagmi/connectors';
 

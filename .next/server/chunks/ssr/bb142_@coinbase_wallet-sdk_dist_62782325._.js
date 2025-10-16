@@ -7626,7 +7626,7 @@ const logWalletLinkConnectionFetchUnseenEventsFailed = ()=>{
 // Extracted from https://github.com/ethereumjs/ethereumjs-util and stripped out irrelevant code
 // Original code licensed under the Mozilla Public License Version 2.0
 /* eslint-disable */ //prettier-ignore
-const { keccak_256 } = __turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@coinbase/wallet-sdk/node_modules/@noble/hashes/sha3.js [app-ssr] (ecmascript)");
+const { keccak_256 } = __turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@noble/hashes/sha3.js [app-ssr] (ecmascript)");
 /**
  * Returns a buffer filled with 0s
  * @method zeros
@@ -9150,8 +9150,8 @@ __turbopack_context__.s([
     "WalletLinkSession",
     ()=>WalletLinkSession
 ]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f40$noble$2f$hashes$2f$esm$2f$sha256$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@coinbase/wallet-sdk/node_modules/@noble/hashes/esm/sha256.js [app-ssr] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f40$noble$2f$hashes$2f$esm$2f$utils$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@coinbase/wallet-sdk/node_modules/@noble/hashes/esm/utils.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$hashes$2f$esm$2f$sha256$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@noble/hashes/esm/sha256.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$hashes$2f$esm$2f$utils$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@noble/hashes/esm/utils.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$dist$2f$core$2f$type$2f$util$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@coinbase/wallet-sdk/dist/core/type/util.js [app-ssr] (ecmascript)");
 ;
 ;
@@ -9164,7 +9164,7 @@ class WalletLinkSession {
         this.storage = storage;
         this.id = id;
         this.secret = secret;
-        this.key = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f40$noble$2f$hashes$2f$esm$2f$utils$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["bytesToHex"])((0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f40$noble$2f$hashes$2f$esm$2f$sha256$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["sha256"])(`${id}, ${secret} WalletLink`));
+        this.key = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$hashes$2f$esm$2f$utils$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["bytesToHex"])((0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$hashes$2f$esm$2f$sha256$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["sha256"])(`${id}, ${secret} WalletLink`));
         this._linked = !!linked;
     }
     static create(storage) {

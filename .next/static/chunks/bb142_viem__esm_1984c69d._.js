@@ -4253,6 +4253,8 @@ __turbopack_context__.s([
     ()=>TransactionNotFoundError,
     "TransactionReceiptNotFoundError",
     ()=>TransactionReceiptNotFoundError,
+    "TransactionReceiptRevertedError",
+    ()=>TransactionReceiptRevertedError,
     "WaitForTransactionReceiptTimeoutError",
     ()=>WaitForTransactionReceiptTimeoutError,
     "prettyPrint",
@@ -4424,6 +4426,27 @@ class TransactionReceiptNotFoundError extends __TURBOPACK__imported__module__$5b
         super('Transaction receipt with hash "'.concat(hash, '" could not be found. The Transaction may not be processed on a block yet.'), {
             name: 'TransactionReceiptNotFoundError'
         });
+    }
+}
+class TransactionReceiptRevertedError extends __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$viem$2f$_esm$2f$errors$2f$base$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["BaseError"] {
+    constructor({ receipt }){
+        super('Transaction with hash "'.concat(receipt.transactionHash, '" reverted.'), {
+            metaMessages: [
+                'The receipt marked the transaction as "reverted". This could mean that the function on the contract you are trying to call threw an error.',
+                ' ',
+                'You can attempt to extract the revert reason by:',
+                '- calling the `simulateContract` or `simulateCalls` Action with the `abi` and `functionName` of the contract',
+                '- using the `call` Action with raw `data`'
+            ],
+            name: 'TransactionReceiptRevertedError'
+        });
+        Object.defineProperty(this, "receipt", {
+            enumerable: true,
+            configurable: true,
+            writable: true,
+            value: void 0
+        });
+        this.receipt = receipt;
     }
 }
 class WaitForTransactionReceiptTimeoutError extends __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$viem$2f$_esm$2f$errors$2f$base$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["BaseError"] {
@@ -7453,7 +7476,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Tru
 async function recoverPublicKey(param) {
     let { hash, signature } = param;
     const hashHex = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$viem$2f$_esm$2f$utils$2f$data$2f$isHex$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isHex"])(hash) ? hash : (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$viem$2f$_esm$2f$utils$2f$encoding$2f$toHex$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["toHex"])(hash);
-    const { secp256k1 } = await __turbopack_context__.A("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@noble/curves/esm/secp256k1.js [app-client] (ecmascript, async loader)");
+    const { secp256k1 } = await __turbopack_context__.A("[project]/Documents/Projects/Truedocs/truedocs/node_modules/viem/node_modules/@noble/curves/esm/secp256k1.js [app-client] (ecmascript, async loader)");
     const signature_ = (()=>{
         // typeof signature: `Signature`
         if (typeof signature === 'object' && 'r' in signature && 's' in signature) {
@@ -8198,7 +8221,7 @@ __turbopack_context__.s([
     "sha256",
     ()=>sha256
 ]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$hashes$2f$esm$2f$sha256$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@noble/hashes/esm/sha256.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$viem$2f$node_modules$2f40$noble$2f$hashes$2f$esm$2f$sha256$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/viem/node_modules/@noble/hashes/esm/sha256.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$viem$2f$_esm$2f$utils$2f$data$2f$isHex$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/viem/_esm/utils/data/isHex.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$viem$2f$_esm$2f$utils$2f$encoding$2f$toBytes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/viem/_esm/utils/encoding/toBytes.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$viem$2f$_esm$2f$utils$2f$encoding$2f$toHex$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/viem/_esm/utils/encoding/toHex.js [app-client] (ecmascript)");
@@ -8208,7 +8231,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Tru
 ;
 function sha256(value, to_) {
     const to = to_ || 'hex';
-    const bytes = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$hashes$2f$esm$2f$sha256$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["sha256"])((0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$viem$2f$_esm$2f$utils$2f$data$2f$isHex$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isHex"])(value, {
+    const bytes = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$viem$2f$node_modules$2f40$noble$2f$hashes$2f$esm$2f$sha256$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["sha256"])((0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$viem$2f$_esm$2f$utils$2f$data$2f$isHex$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["isHex"])(value, {
         strict: false
     }) ? (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$viem$2f$_esm$2f$utils$2f$encoding$2f$toBytes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["toBytes"])(value) : value);
     if (to === 'bytes') return bytes;
@@ -10524,7 +10547,7 @@ __turbopack_context__.s([
     "serializeSignature",
     ()=>serializeSignature
 ]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$secp256k1$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@noble/curves/esm/secp256k1.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$viem$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$secp256k1$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/viem/node_modules/@noble/curves/esm/secp256k1.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$viem$2f$_esm$2f$utils$2f$encoding$2f$fromHex$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/viem/_esm/utils/encoding/fromHex.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$viem$2f$_esm$2f$utils$2f$encoding$2f$toBytes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/viem/_esm/utils/encoding/toBytes.js [app-client] (ecmascript)");
 ;
@@ -10537,7 +10560,7 @@ function serializeSignature(param) {
         if (v && (v === 27n || v === 28n || v >= 35n)) return v % 2n === 0n ? 1 : 0;
         throw new Error('Invalid `v` or `yParity` value');
     })();
-    const signature = "0x".concat(new __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$secp256k1$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["secp256k1"].Signature((0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$viem$2f$_esm$2f$utils$2f$encoding$2f$fromHex$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["hexToBigInt"])(r), (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$viem$2f$_esm$2f$utils$2f$encoding$2f$fromHex$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["hexToBigInt"])(s)).toCompactHex()).concat(yParity_ === 0 ? '1b' : '1c');
+    const signature = "0x".concat(new __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$viem$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$secp256k1$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["secp256k1"].Signature((0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$viem$2f$_esm$2f$utils$2f$encoding$2f$fromHex$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["hexToBigInt"])(r), (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$viem$2f$_esm$2f$utils$2f$encoding$2f$fromHex$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["hexToBigInt"])(s)).toCompactHex()).concat(yParity_ === 0 ? '1b' : '1c');
     if (to === 'hex') return signature;
     return (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$viem$2f$_esm$2f$utils$2f$encoding$2f$toBytes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["hexToBytes"])(signature);
 } //# sourceMappingURL=serializeSignature.js.map
@@ -12543,12 +12566,14 @@ __turbopack_context__.s([
     "sendRawTransactionSync",
     ()=>sendRawTransactionSync
 ]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$viem$2f$_esm$2f$errors$2f$transaction$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/viem/_esm/errors/transaction.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$viem$2f$_esm$2f$utils$2f$formatters$2f$transactionReceipt$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/viem/_esm/utils/formatters/transactionReceipt.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$viem$2f$_esm$2f$utils$2f$encoding$2f$toHex$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/viem/_esm/utils/encoding/toHex.js [app-client] (ecmascript)");
 ;
 ;
+;
 async function sendRawTransactionSync(client, param) {
-    let { serializedTransaction, timeout } = param;
+    let { serializedTransaction, throwOnReceiptRevert, timeout } = param;
     var _client_chain_formatters_transactionReceipt, _client_chain_formatters, _client_chain;
     const receipt = await client.request({
         method: 'eth_sendRawTransactionSync',
@@ -12562,7 +12587,11 @@ async function sendRawTransactionSync(client, param) {
         retryCount: 0
     });
     const format = ((_client_chain = client.chain) === null || _client_chain === void 0 ? void 0 : (_client_chain_formatters = _client_chain.formatters) === null || _client_chain_formatters === void 0 ? void 0 : (_client_chain_formatters_transactionReceipt = _client_chain_formatters.transactionReceipt) === null || _client_chain_formatters_transactionReceipt === void 0 ? void 0 : _client_chain_formatters_transactionReceipt.format) || __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$viem$2f$_esm$2f$utils$2f$formatters$2f$transactionReceipt$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["formatTransactionReceipt"];
-    return format(receipt);
+    const formatted = format(receipt);
+    if (formatted.status === 'reverted' && throwOnReceiptRevert) throw new __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$viem$2f$_esm$2f$errors$2f$transaction$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TransactionReceiptRevertedError"]({
+        receipt: formatted
+    });
+    return formatted;
 } //# sourceMappingURL=sendRawTransactionSync.js.map
 }),
 "[project]/Documents/Projects/Truedocs/truedocs/node_modules/viem/_esm/clients/decorators/public.js [app-client] (ecmascript)", ((__turbopack_context__) => {
@@ -15043,7 +15072,9 @@ async function sendCalls(client, parameters) {
         const error = err;
         // If the transport does not support EIP-5792, fall back to
         // `eth_sendTransaction`.
-        if (experimental_fallback && (error.name === 'MethodNotFoundRpcError' || error.name === 'MethodNotSupportedRpcError' || error.name === 'UnknownRpcError' || error.details.toLowerCase().includes('does not exist / is not available') || error.details.toLowerCase().includes('missing or invalid. request()') || error.details.toLowerCase().includes('did not match any variant of untagged enum') || error.details.toLowerCase().includes('account upgraded to unsupported contract') || error.details.toLowerCase().includes('eip-7702 not supported') || error.details.toLowerCase().includes('unsupported wc_ method') || error.details.toLowerCase().includes('feature toggled misconfigured'))) {
+        if (experimental_fallback && (error.name === 'MethodNotFoundRpcError' || error.name === 'MethodNotSupportedRpcError' || error.name === 'UnknownRpcError' || error.details.toLowerCase().includes('does not exist / is not available') || error.details.toLowerCase().includes('missing or invalid. request()') || error.details.toLowerCase().includes('did not match any variant of untagged enum') || error.details.toLowerCase().includes('account upgraded to unsupported contract') || error.details.toLowerCase().includes('eip-7702 not supported') || error.details.toLowerCase().includes('unsupported wc_ method') || // magic.link
+        error.details.toLowerCase().includes('feature toggled misconfigured') || // Trust Wallet
+        error.details.toLowerCase().includes('jsonrpcengine: response has no error or result for request'))) {
             if (capabilities) {
                 const hasNonOptionalCapability = Object.values(capabilities).some((capability)=>!capability.optional);
                 if (hasNonOptionalCapability) {
@@ -15380,12 +15411,12 @@ __turbopack_context__.s([
     "parseSignature",
     ()=>parseSignature
 ]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$secp256k1$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@noble/curves/esm/secp256k1.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$viem$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$secp256k1$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/viem/node_modules/@noble/curves/esm/secp256k1.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$viem$2f$_esm$2f$utils$2f$encoding$2f$toHex$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/viem/_esm/utils/encoding/toHex.js [app-client] (ecmascript)");
 ;
 ;
 function parseSignature(signatureHex) {
-    const { r, s } = __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$secp256k1$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["secp256k1"].Signature.fromCompact(signatureHex.slice(2, 130));
+    const { r, s } = __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$viem$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$secp256k1$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["secp256k1"].Signature.fromCompact(signatureHex.slice(2, 130));
     const yParityOrV = Number("0x".concat(signatureHex.slice(130)));
     const [v, yParity] = (()=>{
         if (yParityOrV === 0 || yParityOrV === 1) return [

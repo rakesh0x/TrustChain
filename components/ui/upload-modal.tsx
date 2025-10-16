@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Button } from "./button.js";
+import { Button } from "./button.tsx";
 import {
   Dialog,
   DialogContent,
@@ -9,16 +9,16 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "./dialog.js";
-import { Input } from "./input.js";
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "./card.js";
-import { useToast } from "./use-toast.js";
-import { TRUSTCHAIN_ABI } from "../../lib/contract-abi.js";
+} from "./dialog.tsx";
+import { Input } from "./input.tsx";
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "./card.tsx";
+import { useToast } from "./use-toast.ts";
+import { Trustchain_abi } from "../../lib/contract-abi.ts";
 
 
 interface UploadModalProps {
   onUpload: (file: File) => Promise<void>; // Modified to return a Promise
-  uploading: boolean;``
+  uploading: boolean;
 }
 
 export function UploadModal({ onUpload, uploading }: UploadModalProps) {

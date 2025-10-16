@@ -1,6 +1,8 @@
 module.exports = [
-"[project]/Documents/Projects/Truedocs/truedocs/.next-internal/server/app/dashboard/page/actions.js [app-rsc] (server actions loader, ecmascript)", ((__turbopack_context__, module, exports) => {
+"[project]/Documents/Projects/Truedocs/truedocs/.next-internal/server/app/dashboard/page/actions.js [app-rsc] (server actions loader, ecmascript)", ((__turbopack_context__) => {
+"use strict";
 
+__turbopack_context__.s([]);
 }),
 "[project]/Documents/Projects/Truedocs/truedocs/app/layout.tsx [app-rsc] (ecmascript, Next.js Server Component)", ((__turbopack_context__) => {
 

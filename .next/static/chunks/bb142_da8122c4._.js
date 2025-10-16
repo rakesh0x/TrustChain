@@ -383,7 +383,7 @@ __turbopack_context__.s([
     "validate",
     ()=>validate
 ]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$abstract$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@noble/curves/esm/abstract/utils.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$abstract$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/ox/node_modules/@noble/curves/esm/abstract/utils.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Errors$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/ox/_esm/core/Errors.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Hex$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/ox/_esm/core/Hex.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$internal$2f$bytes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/ox/_esm/core/internal/bytes.js [app-client] (ecmascript)");
@@ -476,7 +476,7 @@ function fromString(value) {
     return bytes;
 }
 function isEqual(bytesA, bytesB) {
-    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$abstract$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["equalBytes"])(bytesA, bytesB);
+    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$abstract$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["equalBytes"])(bytesA, bytesB);
 }
 function padLeft(value, size) {
     return __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$internal$2f$bytes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["pad"](value, {
@@ -688,7 +688,7 @@ __turbopack_context__.s([
     "validate",
     ()=>validate
 ]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$abstract$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@noble/curves/esm/abstract/utils.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$abstract$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/ox/node_modules/@noble/curves/esm/abstract/utils.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Bytes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/ox/_esm/core/Bytes.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Errors$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/ox/_esm/core/Errors.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$internal$2f$bytes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/ox/_esm/core/internal/bytes.js [app-client] (ecmascript)");
@@ -777,7 +777,7 @@ function fromString(value) {
     return fromBytes(encoder.encode(value), options);
 }
 function isEqual(hexA, hexB) {
-    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$abstract$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["equalBytes"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Bytes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["fromHex"](hexA), __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Bytes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["fromHex"](hexB));
+    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$abstract$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["equalBytes"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Bytes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["fromHex"](hexA), __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Bytes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["fromHex"](hexB));
 }
 function padLeft(value, size) {
     return __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$internal$2f$hex$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["pad"](value, {
@@ -1083,9 +1083,9 @@ __turbopack_context__.s([
     "validate",
     ()=>validate
 ]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$hashes$2f$esm$2f$ripemd160$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@noble/hashes/esm/ripemd160.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$hashes$2f$esm$2f$sha3$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@noble/hashes/esm/sha3.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$hashes$2f$esm$2f$sha256$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@noble/hashes/esm/sha256.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$node_modules$2f40$noble$2f$hashes$2f$esm$2f$ripemd160$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/ox/node_modules/@noble/hashes/esm/ripemd160.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$node_modules$2f40$noble$2f$hashes$2f$esm$2f$sha3$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/ox/node_modules/@noble/hashes/esm/sha3.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$node_modules$2f40$noble$2f$hashes$2f$esm$2f$sha256$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/ox/node_modules/@noble/hashes/esm/sha256.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Bytes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/ox/_esm/core/Bytes.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Hex$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/ox/_esm/core/Hex.js [app-client] (ecmascript)");
 ;
@@ -1096,21 +1096,21 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Tru
 function keccak256(value) {
     let options = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : {};
     const { as = typeof value === 'string' ? 'Hex' : 'Bytes' } = options;
-    const bytes = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$hashes$2f$esm$2f$sha3$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["keccak_256"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Bytes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["from"](value));
+    const bytes = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$node_modules$2f40$noble$2f$hashes$2f$esm$2f$sha3$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["keccak_256"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Bytes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["from"](value));
     if (as === 'Bytes') return bytes;
     return __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Hex$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["fromBytes"](bytes);
 }
 function ripemd160(value) {
     let options = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : {};
     const { as = typeof value === 'string' ? 'Hex' : 'Bytes' } = options;
-    const bytes = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$hashes$2f$esm$2f$ripemd160$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ripemd160"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Bytes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["from"](value));
+    const bytes = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$node_modules$2f40$noble$2f$hashes$2f$esm$2f$ripemd160$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ripemd160"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Bytes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["from"](value));
     if (as === 'Bytes') return bytes;
     return __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Hex$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["fromBytes"](bytes);
 }
 function sha256(value) {
     let options = arguments.length > 1 && arguments[1] !== void 0 ? arguments[1] : {};
     const { as = typeof value === 'string' ? 'Hex' : 'Bytes' } = options;
-    const bytes = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$hashes$2f$esm$2f$sha256$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["sha256"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Bytes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["from"](value));
+    const bytes = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$node_modules$2f40$noble$2f$hashes$2f$esm$2f$sha256$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["sha256"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Bytes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["from"](value));
     if (as === 'Bytes') return bytes;
     return __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Hex$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["fromBytes"](bytes);
 }
@@ -3792,7 +3792,7 @@ __turbopack_context__.s([
     "yParityToV",
     ()=>yParityToV
 ]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$secp256k1$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@noble/curves/esm/secp256k1.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$secp256k1$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/ox/node_modules/@noble/curves/esm/secp256k1.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Bytes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/ox/_esm/core/Bytes.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Errors$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/ox/_esm/core/Errors.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Hex$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/ox/_esm/core/Hex.js [app-client] (ecmascript)");
@@ -3882,7 +3882,7 @@ function fromDerBytes(signature) {
     return fromDerHex(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Hex$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["fromBytes"](signature));
 }
 function fromDerHex(signature) {
-    const { r, s } = __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$secp256k1$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["secp256k1"].Signature.fromDER(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Hex$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["from"](signature).slice(2));
+    const { r, s } = __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$secp256k1$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["secp256k1"].Signature.fromDER(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Hex$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["from"](signature).slice(2));
     return {
         r,
         s
@@ -3937,11 +3937,11 @@ function toHex(signature) {
     return signature_;
 }
 function toDerBytes(signature) {
-    const sig = new __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$secp256k1$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["secp256k1"].Signature(signature.r, signature.s);
+    const sig = new __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$secp256k1$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["secp256k1"].Signature(signature.r, signature.s);
     return sig.toDERRawBytes();
 }
 function toDerHex(signature) {
-    const sig = new __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$secp256k1$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["secp256k1"].Signature(signature.r, signature.s);
+    const sig = new __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$secp256k1$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["secp256k1"].Signature(signature.r, signature.s);
     return "0x".concat(sig.toDERHex());
 }
 function toLegacy(signature) {
@@ -4225,7 +4225,7 @@ __turbopack_context__.s([
     "verify",
     ()=>verify
 ]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$secp256k1$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@noble/curves/esm/secp256k1.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$secp256k1$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/ox/node_modules/@noble/curves/esm/secp256k1.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Address$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/ox/_esm/core/Address.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Bytes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/ox/_esm/core/Bytes.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Hex$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/ox/_esm/core/Hex.js [app-client] (ecmascript)");
@@ -4237,7 +4237,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Tru
 ;
 ;
 ;
-const noble = __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$secp256k1$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["secp256k1"];
+const noble = __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$secp256k1$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["secp256k1"];
 function createKeyPair() {
     let options = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : {};
     const { as = 'Hex' } = options;
@@ -4254,13 +4254,13 @@ function createKeyPair() {
 }
 function getPublicKey(options) {
     const { privateKey } = options;
-    const point = __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$secp256k1$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["secp256k1"].ProjectivePoint.fromPrivateKey(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Hex$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["from"](privateKey).slice(2));
+    const point = __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$secp256k1$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["secp256k1"].ProjectivePoint.fromPrivateKey(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Hex$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["from"](privateKey).slice(2));
     return __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$PublicKey$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["from"](point);
 }
 function getSharedSecret(options) {
     const { as = 'Hex', privateKey, publicKey } = options;
-    const point = __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$secp256k1$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["secp256k1"].ProjectivePoint.fromHex(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$PublicKey$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["toHex"](publicKey).slice(2));
-    const sharedPoint = point.multiply(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$secp256k1$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["secp256k1"].utils.normPrivateKeyToScalar(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Hex$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["from"](privateKey).slice(2)));
+    const point = __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$secp256k1$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["secp256k1"].ProjectivePoint.fromHex(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$PublicKey$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["toHex"](publicKey).slice(2));
+    const sharedPoint = point.multiply(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$secp256k1$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["secp256k1"].utils.normPrivateKeyToScalar(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Hex$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["from"](privateKey).slice(2)));
     const sharedSecret = sharedPoint.toRawBytes(true); // compressed format
     if (as === 'Hex') return __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Hex$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["fromBytes"](sharedSecret);
     return sharedSecret;
@@ -4268,7 +4268,7 @@ function getSharedSecret(options) {
 function randomPrivateKey() {
     let options = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : {};
     const { as = 'Hex' } = options;
-    const bytes = __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$secp256k1$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["secp256k1"].utils.randomPrivateKey();
+    const bytes = __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$secp256k1$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["secp256k1"].utils.randomPrivateKey();
     if (as === 'Hex') return __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Hex$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["fromBytes"](bytes);
     return bytes;
 }
@@ -4278,13 +4278,13 @@ function recoverAddress(options) {
 function recoverPublicKey(options) {
     const { payload, signature } = options;
     const { r, s, yParity } = signature;
-    const signature_ = new __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$secp256k1$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["secp256k1"].Signature(BigInt(r), BigInt(s)).addRecoveryBit(yParity);
+    const signature_ = new __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$secp256k1$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["secp256k1"].Signature(BigInt(r), BigInt(s)).addRecoveryBit(yParity);
     const point = signature_.recoverPublicKey(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Hex$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["from"](payload).substring(2));
     return __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$PublicKey$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["from"](point);
 }
 function sign(options) {
     const { extraEntropy = __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$internal$2f$entropy$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["extraEntropy"], hash, payload, privateKey } = options;
-    const { r, s, recovery } = __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$secp256k1$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["secp256k1"].sign(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Bytes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["from"](payload), __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Bytes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["from"](privateKey), {
+    const { r, s, recovery } = __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$secp256k1$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["secp256k1"].sign(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Bytes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["from"](payload), __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Bytes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["from"](privateKey), {
         extraEntropy: typeof extraEntropy === 'boolean' ? extraEntropy : __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Hex$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["from"](extraEntropy).slice(2),
         lowS: true,
         ...hash ? {
@@ -4303,7 +4303,7 @@ function verify(options) {
         payload,
         signature
     }));
-    return __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$secp256k1$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["secp256k1"].verify(signature, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Bytes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["from"](payload), __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$PublicKey$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["toBytes"](publicKey), ...hash ? [
+    return __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$secp256k1$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["secp256k1"].verify(signature, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Bytes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["from"](payload), __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$PublicKey$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["toBytes"](publicKey), ...hash ? [
         {
             prehash: true,
             lowS: true
@@ -4812,7 +4812,7 @@ __turbopack_context__.s([
     "validate",
     ()=>validate
 ]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$abstract$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@noble/curves/esm/abstract/utils.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$abstract$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@coinbase/wallet-sdk/node_modules/@noble/curves/esm/abstract/utils.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Errors$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@coinbase/wallet-sdk/node_modules/ox/_esm/core/Errors.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Hex$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@coinbase/wallet-sdk/node_modules/ox/_esm/core/Hex.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Json$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@coinbase/wallet-sdk/node_modules/ox/_esm/core/Json.js [app-client] (ecmascript)");
@@ -4905,7 +4905,7 @@ function fromString(value) {
     return bytes;
 }
 function isEqual(bytesA, bytesB) {
-    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$abstract$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["equalBytes"])(bytesA, bytesB);
+    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$abstract$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["equalBytes"])(bytesA, bytesB);
 }
 function padLeft(value, size) {
     return __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$internal$2f$bytes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["pad"](value, {
@@ -5117,7 +5117,7 @@ __turbopack_context__.s([
     "validate",
     ()=>validate
 ]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$abstract$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@noble/curves/esm/abstract/utils.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$abstract$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@coinbase/wallet-sdk/node_modules/@noble/curves/esm/abstract/utils.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Bytes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@coinbase/wallet-sdk/node_modules/ox/_esm/core/Bytes.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Errors$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@coinbase/wallet-sdk/node_modules/ox/_esm/core/Errors.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Json$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@coinbase/wallet-sdk/node_modules/ox/_esm/core/Json.js [app-client] (ecmascript)");
@@ -5206,7 +5206,7 @@ function fromString(value) {
     return fromBytes(encoder.encode(value), options);
 }
 function isEqual(hexA, hexB) {
-    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$abstract$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["equalBytes"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Bytes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["fromHex"](hexA), __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Bytes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["fromHex"](hexB));
+    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$abstract$2f$utils$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["equalBytes"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Bytes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["fromHex"](hexA), __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Bytes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["fromHex"](hexB));
 }
 function padLeft(value, size) {
     return __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$internal$2f$hex$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["pad"](value, {
@@ -5998,7 +5998,7 @@ __turbopack_context__.s([
     "yParityToV",
     ()=>yParityToV
 ]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$secp256k1$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@noble/curves/esm/secp256k1.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$secp256k1$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@coinbase/wallet-sdk/node_modules/@noble/curves/esm/secp256k1.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Bytes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@coinbase/wallet-sdk/node_modules/ox/_esm/core/Bytes.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Errors$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@coinbase/wallet-sdk/node_modules/ox/_esm/core/Errors.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Hex$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@coinbase/wallet-sdk/node_modules/ox/_esm/core/Hex.js [app-client] (ecmascript)");
@@ -6088,7 +6088,7 @@ function fromDerBytes(signature) {
     return fromDerHex(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Hex$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["fromBytes"](signature));
 }
 function fromDerHex(signature) {
-    const { r, s } = __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$secp256k1$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["secp256k1"].Signature.fromDER(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Hex$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["from"](signature).slice(2));
+    const { r, s } = __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$secp256k1$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["secp256k1"].Signature.fromDER(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Hex$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["from"](signature).slice(2));
     return {
         r,
         s
@@ -6143,11 +6143,11 @@ function toHex(signature) {
     return signature_;
 }
 function toDerBytes(signature) {
-    const sig = new __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$secp256k1$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["secp256k1"].Signature(signature.r, signature.s);
+    const sig = new __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$secp256k1$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["secp256k1"].Signature(signature.r, signature.s);
     return sig.toDERRawBytes();
 }
 function toDerHex(signature) {
-    const sig = new __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$secp256k1$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["secp256k1"].Signature(signature.r, signature.s);
+    const sig = new __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$secp256k1$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["secp256k1"].Signature(signature.r, signature.s);
     return "0x".concat(sig.toDERHex());
 }
 function toLegacy(signature) {
@@ -6445,7 +6445,7 @@ __turbopack_context__.s([
     "verify",
     ()=>verify
 ]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$p256$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@noble/curves/esm/p256.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$p256$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@coinbase/wallet-sdk/node_modules/@noble/curves/esm/p256.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Bytes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@coinbase/wallet-sdk/node_modules/ox/_esm/core/Bytes.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Hex$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@coinbase/wallet-sdk/node_modules/ox/_esm/core/Hex.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$PublicKey$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@coinbase/wallet-sdk/node_modules/ox/_esm/core/PublicKey.js [app-client] (ecmascript)");
@@ -6455,30 +6455,30 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Tru
 ;
 ;
 ;
-const noble = __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$p256$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["secp256r1"];
+const noble = __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$p256$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["secp256r1"];
 function getPublicKey(options) {
     const { privateKey } = options;
-    const point = __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$p256$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["secp256r1"].ProjectivePoint.fromPrivateKey(typeof privateKey === 'string' ? privateKey.slice(2) : __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Hex$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["fromBytes"](privateKey).slice(2));
+    const point = __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$p256$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["secp256r1"].ProjectivePoint.fromPrivateKey(typeof privateKey === 'string' ? privateKey.slice(2) : __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Hex$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["fromBytes"](privateKey).slice(2));
     return __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$PublicKey$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["from"](point);
 }
 function randomPrivateKey() {
     let options = arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : {};
     const { as = 'Hex' } = options;
-    const bytes = __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$p256$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["secp256r1"].utils.randomPrivateKey();
+    const bytes = __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$p256$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["secp256r1"].utils.randomPrivateKey();
     if (as === 'Hex') return __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Hex$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["fromBytes"](bytes);
     return bytes;
 }
 function recoverPublicKey(options) {
     const { payload, signature } = options;
     const { r, s, yParity } = signature;
-    const signature_ = new __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$p256$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["secp256r1"].Signature(BigInt(r), BigInt(s)).addRecoveryBit(yParity);
+    const signature_ = new __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$p256$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["secp256r1"].Signature(BigInt(r), BigInt(s)).addRecoveryBit(yParity);
     const payload_ = payload instanceof Uint8Array ? __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Hex$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["fromBytes"](payload) : payload;
     const point = signature_.recoverPublicKey(payload_.substring(2));
     return __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$PublicKey$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["from"](point);
 }
 function sign(options) {
     const { extraEntropy = __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$internal$2f$entropy$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["extraEntropy"], hash, payload, privateKey } = options;
-    const { r, s, recovery } = __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$p256$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["secp256r1"].sign(payload instanceof Uint8Array ? payload : __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Bytes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["fromHex"](payload), privateKey instanceof Uint8Array ? privateKey : __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Bytes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["fromHex"](privateKey), {
+    const { r, s, recovery } = __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$p256$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["secp256r1"].sign(payload instanceof Uint8Array ? payload : __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Bytes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["fromHex"](payload), privateKey instanceof Uint8Array ? privateKey : __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Bytes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["fromHex"](privateKey), {
         extraEntropy: typeof extraEntropy === 'boolean' ? extraEntropy : __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Hex$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["from"](extraEntropy).slice(2),
         lowS: true,
         ...hash ? {
@@ -6493,7 +6493,7 @@ function sign(options) {
 }
 function verify(options) {
     const { hash, payload, publicKey, signature } = options;
-    return __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$p256$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["secp256r1"].verify(signature, payload instanceof Uint8Array ? payload : __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Bytes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["fromHex"](payload), __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$PublicKey$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["toHex"](publicKey).substring(2), ...hash ? [
+    return __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$p256$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["secp256r1"].verify(signature, payload instanceof Uint8Array ? payload : __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Bytes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["fromHex"](payload), __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$PublicKey$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["toHex"](publicKey).substring(2), ...hash ? [
         {
             prehash: true,
             lowS: true
@@ -6510,7 +6510,7 @@ __turbopack_context__.s([
     "parseCredentialPublicKey",
     ()=>parseCredentialPublicKey
 ]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$p256$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@noble/curves/esm/p256.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$p256$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@coinbase/wallet-sdk/node_modules/@noble/curves/esm/p256.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Hex$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@coinbase/wallet-sdk/node_modules/ox/_esm/core/Hex.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$PublicKey$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@coinbase/wallet-sdk/node_modules/ox/_esm/core/PublicKey.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$WebAuthnP256$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@coinbase/wallet-sdk/node_modules/ox/_esm/core/WebAuthnP256.js [app-client] (ecmascript)");
@@ -6526,7 +6526,7 @@ function parseAsn1Signature(bytes) {
     const s = BigInt(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Hex$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["fromBytes"](bytes.slice(s_start)));
     return {
         r,
-        s: s > __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$p256$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["p256"].CURVE.n / 2n ? __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$p256$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["p256"].CURVE.n - s : s
+        s: s > __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$p256$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["p256"].CURVE.n / 2n ? __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$p256$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["p256"].CURVE.n - s : s
     };
 }
 async function parseCredentialPublicKey(response) {
@@ -6873,7 +6873,7 @@ __turbopack_context__.s([
     "verify",
     ()=>verify
 ]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$p256$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@noble/curves/esm/p256.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$p256$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@coinbase/wallet-sdk/node_modules/@noble/curves/esm/p256.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Bytes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@coinbase/wallet-sdk/node_modules/ox/_esm/core/Bytes.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$PublicKey$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@coinbase/wallet-sdk/node_modules/ox/_esm/core/PublicKey.js [app-client] (ecmascript)");
 ;
@@ -6905,7 +6905,7 @@ async function sign(options) {
     const signature_bytes = __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Bytes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["fromArray"](new Uint8Array(signature));
     const r = __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Bytes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["toBigInt"](__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Bytes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["slice"](signature_bytes, 0, 32));
     let s = __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Bytes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["toBigInt"](__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Bytes$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["slice"](signature_bytes, 32, 64));
-    if (s > __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$p256$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["p256"].CURVE.n / 2n) s = __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$p256$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["p256"].CURVE.n - s;
+    if (s > __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$p256$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["p256"].CURVE.n / 2n) s = __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f40$noble$2f$curves$2f$esm$2f$p256$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["p256"].CURVE.n - s;
     return {
         r,
         s

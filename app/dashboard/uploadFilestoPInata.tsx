@@ -1,67 +1,55 @@
-"use client";
-
+"use client"
 import { useState } from "react";
-import { UploadModal } from "../../components/ui/upload-modal.js";
 import { ethers } from "ethers";
-import { TRUSTCHAIN_ABI } from "../../lib/contract-abi.js";
-import { transactionType } from "viem";
-
-declare const window: Window & typeof globalThis & { ethereum?: any };
+import { Trustchain_abi } from "../../lib/contract-abi.ts";
+import { UploadModal } from "../../components/ui/upload-modal.tsx";
 
 export default function UploadFiles() {
   const [url, setUrl] = useState("");
   const [uploading, setUploading] = useState(false);
+
   const ContractAddress = process.env.NEXT_PUBLIC_CONTRACT_ADDRESS;
+  const rpcUrl = process.env.NEXT_PUBLIC_HARDHAT_RPC_URL || "http://127.0.0.1:8545";
 
   const uploadFile = async (selectedFile: File) => {
     try {
       setUploading(true);
+
+      // ✅ Step 1: Upload file
       const data = new FormData();
       data.set("file", selectedFile);
-      const uploadRequest = await fetch("/api/files", {
-        method: "POST",
-        body: data,
-      });
+      const uploadRequest = await fetch("/api/files", { method: "POST", body: data });
 
-      const arrayBuffer = await selectedFile.arrayBuffer(); 
-      const hashBuffer = await crypto.subtle.digest("SHA-256", arrayBuffer); 
-      const hashArray = Array.from(new Uint8Array(hashBuffer)); 
-      const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join(''); 
-      console.log("sha256 hash", hashHex);  
+      // ✅ Step 2: Hash file contents
+      const arrayBuffer = await selectedFile.arrayBuffer();
+      const hashBuffer = await crypto.subtle.digest("SHA-256", arrayBuffer);
+      const hashArray = Array.from(new Uint8Array(hashBuffer));
+      const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+      console.log("sha256 hash", hashHex);
 
-      if(typeof window !== 'undefined' && window.ethereum) {
-        console.log("window.ethereum", window.ethereum);
-        console.log("isMetaMask?", window.ethereum?.isMetaMask);
-        
-        const ethereumProvider = window.ethereum.providers?.find((p: any) => p.isMetaMask) || window.ethereum;
+      // ✅ Step 3: Connect to Hardhat local node (no MetaMask needed)
+      const provider = new ethers.JsonRpcProvider(rpcUrl);
 
-        if (ethereumProvider) {
-          const provider = new ethers.BrowserProvider(ethereumProvider);
-          const signer = await provider.getSigner();
-          const contract = new ethers.Contract(ContractAddress!, TRUSTCHAIN_ABI, signer);
+      // by default Hardhat provides 20 accounts, we can use index 0
+      const signer = await provider.getSigner(0);
 
-          const tx = await contract.storeHash(hashHex)
+      // ✅ Step 4: Create contract instance
+      const contract = new ethers.Contract(ContractAddress!, Trustchain_abi, signer);
 
-          await tx.wait();
-          console.log("Transaction Sent: ", tx.hash);
-        } else {
-          alert("Please install MetaMask to interact with this app.");
-        }
-      } else if (typeof window !== 'undefined') {
-        alert("Please install MetaMask");
-      }
+      // ✅ Step 5: Send transaction
+      const tx = await contract.storeHash(hashHex);
+      await tx.wait();
+      console.log("Transaction Sent: ", tx.hash);
 
-
+      // ✅ Step 6: Handle upload result
       const signedUrl = await uploadRequest.json();
       setUrl(signedUrl);
       setUploading(false);
     } catch (e: any) {
-      console.error("error during uploadfile:", e)
+      console.error("Error during uploadFile:", e);
       setUploading(false);
     }
   };
 
-  return (
-    <UploadModal onUpload={uploadFile} uploading={uploading} />
-  );
+  return <UploadModal onUpload={uploadFile} uploading={uploading} />;
 }

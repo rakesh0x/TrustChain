@@ -9828,7 +9828,7 @@ __turbopack_context__.s([
     "version",
     ()=>version
 ]);
-const version = '2.18.0'; //# sourceMappingURL=version.js.map
+const version = '2.18.1'; //# sourceMappingURL=version.js.map
 }),
 "[project]/Documents/Projects/Truedocs/truedocs/node_modules/wagmi/dist/esm/utils/getVersion.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
