@@ -7,7 +7,6 @@ import { siEthereum, siNextdotjs, siReact, siShadcnui, siWagmi, siEthers, siSoli
 import { ArrowRight } from 'lucide-react';
 import Link from 'next/link';
 
-// Dynamically import SSR-incompatible components
 const InfiniteSlider = dynamic(() => import('../../../components/ui/infinite-slider').then((mod) => mod.InfiniteSlider), { ssr: false });
 const ProgressiveBlur = dynamic(() => import('../../../components/ui/progressive-blur').then((mod) => mod.ProgressiveBlur), { ssr: false });
 
@@ -18,7 +17,6 @@ const transitionVariants = {
   },
 };
 
-// Reusable animated link component
 export const AnimatedLink = ({ href, text }: { href: string; text: string }) => (
   <AnimatedGroup variants={transitionVariants}>
     <Link

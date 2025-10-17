@@ -202,7 +202,6 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Tru
 ;
 ;
 ;
-// Dynamically import SSR-incompatible components
 const InfiniteSlider = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$next$2f$dist$2f$shared$2f$lib$2f$app$2d$dynamic$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(async ()=>{}, {
     loadableGenerated: {
         modules: [
@@ -244,14 +243,14 @@ const AnimatedLink = ({ href, text })=>/*#__PURE__*/ (0, __TURBOPACK__imported__
                     children: text
                 }, void 0, false, {
                     fileName: "[project]/Documents/Projects/Truedocs/truedocs/app/(landing)/_components/hero.tsx",
-                    lineNumber: 28,
+                    lineNumber: 26,
                     columnNumber: 7
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                     className: "dark:border-background block h-4 w-0.5 border-l bg-white dark:bg-zinc-700"
                 }, void 0, false, {
                     fileName: "[project]/Documents/Projects/Truedocs/truedocs/app/(landing)/_components/hero.tsx",
-                    lineNumber: 29,
+                    lineNumber: 27,
                     columnNumber: 7
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -265,12 +264,12 @@ const AnimatedLink = ({ href, text })=>/*#__PURE__*/ (0, __TURBOPACK__imported__
                                     className: "m-auto size-3"
                                 }, void 0, false, {
                                     fileName: "[project]/Documents/Projects/Truedocs/truedocs/app/(landing)/_components/hero.tsx",
-                                    lineNumber: 32,
+                                    lineNumber: 30,
                                     columnNumber: 41
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/Documents/Projects/Truedocs/truedocs/app/(landing)/_components/hero.tsx",
-                                lineNumber: 32,
+                                lineNumber: 30,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -279,34 +278,34 @@ const AnimatedLink = ({ href, text })=>/*#__PURE__*/ (0, __TURBOPACK__imported__
                                     className: "m-auto size-3"
                                 }, void 0, false, {
                                     fileName: "[project]/Documents/Projects/Truedocs/truedocs/app/(landing)/_components/hero.tsx",
-                                    lineNumber: 33,
+                                    lineNumber: 31,
                                     columnNumber: 41
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/Documents/Projects/Truedocs/truedocs/app/(landing)/_components/hero.tsx",
-                                lineNumber: 33,
+                                lineNumber: 31,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Documents/Projects/Truedocs/truedocs/app/(landing)/_components/hero.tsx",
-                        lineNumber: 31,
+                        lineNumber: 29,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 }, void 0, false, {
                     fileName: "[project]/Documents/Projects/Truedocs/truedocs/app/(landing)/_components/hero.tsx",
-                    lineNumber: 30,
+                    lineNumber: 28,
                     columnNumber: 7
                 }, ("TURBOPACK compile-time value", void 0))
             ]
         }, void 0, true, {
             fileName: "[project]/Documents/Projects/Truedocs/truedocs/app/(landing)/_components/hero.tsx",
-            lineNumber: 24,
+            lineNumber: 22,
             columnNumber: 5
         }, ("TURBOPACK compile-time value", void 0))
     }, void 0, false, {
         fileName: "[project]/Documents/Projects/Truedocs/truedocs/app/(landing)/_components/hero.tsx",
-        lineNumber: 23,
+        lineNumber: 21,
         columnNumber: 3
     }, ("TURBOPACK compile-time value", void 0));
 // Reusable call-to-action buttons component
@@ -337,22 +336,22 @@ const CTAButtons = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$proj
                             children: "Start Uploading"
                         }, void 0, false, {
                             fileName: "[project]/Documents/Projects/Truedocs/truedocs/app/(landing)/_components/hero.tsx",
-                            lineNumber: 52,
+                            lineNumber: 50,
                             columnNumber: 11
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/Documents/Projects/Truedocs/truedocs/app/(landing)/_components/hero.tsx",
-                        lineNumber: 51,
+                        lineNumber: 49,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 }, void 0, false, {
                     fileName: "[project]/Documents/Projects/Truedocs/truedocs/app/(landing)/_components/hero.tsx",
-                    lineNumber: 50,
+                    lineNumber: 48,
                     columnNumber: 7
                 }, ("TURBOPACK compile-time value", void 0))
             }, 1, false, {
                 fileName: "[project]/Documents/Projects/Truedocs/truedocs/app/(landing)/_components/hero.tsx",
-                lineNumber: 49,
+                lineNumber: 47,
                 columnNumber: 5
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -367,23 +366,23 @@ const CTAButtons = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$proj
                         children: "Get Started"
                     }, void 0, false, {
                         fileName: "[project]/Documents/Projects/Truedocs/truedocs/app/(landing)/_components/hero.tsx",
-                        lineNumber: 58,
+                        lineNumber: 56,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 }, void 0, false, {
                     fileName: "[project]/Documents/Projects/Truedocs/truedocs/app/(landing)/_components/hero.tsx",
-                    lineNumber: 57,
+                    lineNumber: 55,
                     columnNumber: 7
                 }, ("TURBOPACK compile-time value", void 0))
             }, 2, false, {
                 fileName: "[project]/Documents/Projects/Truedocs/truedocs/app/(landing)/_components/hero.tsx",
-                lineNumber: 56,
+                lineNumber: 54,
                 columnNumber: 5
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/Documents/Projects/Truedocs/truedocs/app/(landing)/_components/hero.tsx",
-        lineNumber: 42,
+        lineNumber: 40,
         columnNumber: 3
     }, ("TURBOPACK compile-time value", void 0));
 // Tech slider component
@@ -408,26 +407,26 @@ const TechSlider = ()=>{
                         icon: icon
                     }, index, false, {
                         fileName: "[project]/Documents/Projects/Truedocs/truedocs/app/(landing)/_components/hero.tsx",
-                        lineNumber: 71,
+                        lineNumber: 69,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0)))
             }, void 0, false, {
                 fileName: "[project]/Documents/Projects/Truedocs/truedocs/app/(landing)/_components/hero.tsx",
-                lineNumber: 69,
+                lineNumber: 67,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "bg-linear-to-r from-background absolute inset-y-0 left-0 w-20"
             }, void 0, false, {
                 fileName: "[project]/Documents/Projects/Truedocs/truedocs/app/(landing)/_components/hero.tsx",
-                lineNumber: 75,
+                lineNumber: 73,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "bg-linear-to-l from-background absolute inset-y-0 right-0 w-20"
             }, void 0, false, {
                 fileName: "[project]/Documents/Projects/Truedocs/truedocs/app/(landing)/_components/hero.tsx",
-                lineNumber: 76,
+                lineNumber: 74,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ProgressiveBlur, {
@@ -436,7 +435,7 @@ const TechSlider = ()=>{
                 blurIntensity: 1
             }, void 0, false, {
                 fileName: "[project]/Documents/Projects/Truedocs/truedocs/app/(landing)/_components/hero.tsx",
-                lineNumber: 77,
+                lineNumber: 75,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ProgressiveBlur, {
@@ -445,13 +444,13 @@ const TechSlider = ()=>{
                 blurIntensity: 1
             }, void 0, false, {
                 fileName: "[project]/Documents/Projects/Truedocs/truedocs/app/(landing)/_components/hero.tsx",
-                lineNumber: 78,
+                lineNumber: 76,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/Documents/Projects/Truedocs/truedocs/app/(landing)/_components/hero.tsx",
-        lineNumber: 68,
+        lineNumber: 66,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -463,7 +462,7 @@ const SimpleIcon = ({ icon })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__
         }
     }, void 0, false, {
         fileName: "[project]/Documents/Projects/Truedocs/truedocs/app/(landing)/_components/hero.tsx",
-        lineNumber: 85,
+        lineNumber: 83,
         columnNumber: 3
     }, ("TURBOPACK compile-time value", void 0));
 const Hero = ()=>{
@@ -482,7 +481,7 @@ const Hero = ()=>{
                                     text: "Get your documents on-chain"
                                 }, void 0, false, {
                                     fileName: "[project]/Documents/Projects/Truedocs/truedocs/app/(landing)/_components/hero.tsx",
-                                    lineNumber: 98,
+                                    lineNumber: 96,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -490,7 +489,7 @@ const Hero = ()=>{
                                     children: "Trust Chain: On-Chain Proof. Off-Chain Trust."
                                 }, void 0, false, {
                                     fileName: "[project]/Documents/Projects/Truedocs/truedocs/app/(landing)/_components/hero.tsx",
-                                    lineNumber: 99,
+                                    lineNumber: 97,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -498,33 +497,33 @@ const Hero = ()=>{
                                     children: "Blockchain-powered document store, where you can register, verify, and secure credentials with zero chance of tampering."
                                 }, void 0, false, {
                                     fileName: "[project]/Documents/Projects/Truedocs/truedocs/app/(landing)/_components/hero.tsx",
-                                    lineNumber: 102,
+                                    lineNumber: 100,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(CTAButtons, {}, void 0, false, {
                                     fileName: "[project]/Documents/Projects/Truedocs/truedocs/app/(landing)/_components/hero.tsx",
-                                    lineNumber: 105,
+                                    lineNumber: 103,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Documents/Projects/Truedocs/truedocs/app/(landing)/_components/hero.tsx",
-                            lineNumber: 97,
+                            lineNumber: 95,
                             columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/Documents/Projects/Truedocs/truedocs/app/(landing)/_components/hero.tsx",
-                        lineNumber: 96,
+                        lineNumber: 94,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0))
                 }, void 0, false, {
                     fileName: "[project]/Documents/Projects/Truedocs/truedocs/app/(landing)/_components/hero.tsx",
-                    lineNumber: 95,
+                    lineNumber: 93,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/Documents/Projects/Truedocs/truedocs/app/(landing)/_components/hero.tsx",
-                lineNumber: 94,
+                lineNumber: 92,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -553,38 +552,38 @@ const Hero = ()=>{
                                         children: "Powering the app by"
                                     }, void 0, false, {
                                         fileName: "[project]/Documents/Projects/Truedocs/truedocs/app/(landing)/_components/hero.tsx",
-                                        lineNumber: 121,
+                                        lineNumber: 119,
                                         columnNumber: 17
                                     }, ("TURBOPACK compile-time value", void 0))
                                 }, void 0, false, {
                                     fileName: "[project]/Documents/Projects/Truedocs/truedocs/app/(landing)/_components/hero.tsx",
-                                    lineNumber: 120,
+                                    lineNumber: 118,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(TechSlider, {}, void 0, false, {
                                     fileName: "[project]/Documents/Projects/Truedocs/truedocs/app/(landing)/_components/hero.tsx",
-                                    lineNumber: 123,
+                                    lineNumber: 121,
                                     columnNumber: 15
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Documents/Projects/Truedocs/truedocs/app/(landing)/_components/hero.tsx",
-                            lineNumber: 119,
+                            lineNumber: 117,
                             columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/Documents/Projects/Truedocs/truedocs/app/(landing)/_components/hero.tsx",
-                        lineNumber: 118,
+                        lineNumber: 116,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0))
                 }, void 0, false, {
                     fileName: "[project]/Documents/Projects/Truedocs/truedocs/app/(landing)/_components/hero.tsx",
-                    lineNumber: 112,
+                    lineNumber: 110,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/Documents/Projects/Truedocs/truedocs/app/(landing)/_components/hero.tsx",
-                lineNumber: 111,
+                lineNumber: 109,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]

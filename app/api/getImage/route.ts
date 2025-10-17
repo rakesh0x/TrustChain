@@ -8,7 +8,7 @@ export async function GET(request: NextRequest) {
       return NextResponse.json({ error: "CID is required" }, { status: 400 });
     }
 
-    const gatewayUrl = `${process.env.NEXT_PUBLIC_GATEWAY_URL}/${cid}`;
+    const gatewayUrl = `https://${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/${cid}`;
 
     return NextResponse.json({ gatewayUrl }, { status: 200 });
   } catch (error: any) {

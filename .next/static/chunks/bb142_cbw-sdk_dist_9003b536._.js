@@ -1708,7 +1708,7 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.CloseIcon = void 0;
-const preact_1 = __turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/preact/dist/preact.module.js [app-client] (ecmascript)");
+const preact_1 = __turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/cbw-sdk/node_modules/preact/dist/preact.module.js [app-client] (ecmascript)");
 function CloseIcon(props) {
     return (0, preact_1.h)("svg", Object.assign({
         width: "40",
@@ -1729,7 +1729,7 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.CoinbaseWalletRound = void 0;
-const preact_1 = __turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/preact/dist/preact.module.js [app-client] (ecmascript)");
+const preact_1 = __turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/cbw-sdk/node_modules/preact/dist/preact.module.js [app-client] (ecmascript)");
 function CoinbaseWalletRound(props) {
     return (0, preact_1.h)("svg", Object.assign({
         width: "28",
@@ -1759,7 +1759,7 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.QRCodeIcon = void 0;
-const preact_1 = __turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/preact/dist/preact.module.js [app-client] (ecmascript)");
+const preact_1 = __turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/cbw-sdk/node_modules/preact/dist/preact.module.js [app-client] (ecmascript)");
 function QRCodeIcon(props) {
     return (0, preact_1.h)("svg", Object.assign({
         width: "18",
@@ -4384,8 +4384,8 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.QRCode = void 0;
-const preact_1 = __turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/preact/dist/preact.module.js [app-client] (ecmascript)");
-const hooks_1 = __turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/preact/hooks/dist/hooks.module.js [app-client] (ecmascript)");
+const preact_1 = __turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/cbw-sdk/node_modules/preact/dist/preact.module.js [app-client] (ecmascript)");
+const hooks_1 = __turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/cbw-sdk/node_modules/preact/hooks/dist/hooks.module.js [app-client] (ecmascript)");
 const qrcode_svg_1 = __importDefault(__turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/cbw-sdk/dist/vendor-js/qrcode-svg/index.js [app-client] (ecmascript)"));
 const QRCode = (props)=>{
     const [svg, setSvg] = (0, hooks_1.useState)('');
@@ -4441,7 +4441,7 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.Spinner = void 0;
-const preact_1 = __turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/preact/dist/preact.module.js [app-client] (ecmascript)");
+const preact_1 = __turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/cbw-sdk/node_modules/preact/dist/preact.module.js [app-client] (ecmascript)");
 const Spinner_css_1 = __importDefault(__turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/cbw-sdk/dist/relay/walletlink/ui/components/Spinner/Spinner-css.js [app-client] (ecmascript)"));
 const Spinner = (props)=>{
     var _a;
@@ -4490,7 +4490,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.CoinbaseWalletSteps = exports.ConnectContent = void 0;
 const clsx_1 = __importDefault(__turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/cbw-sdk/node_modules/clsx/dist/clsx.m.js [app-client] (ecmascript)"));
-const preact_1 = __turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/preact/dist/preact.module.js [app-client] (ecmascript)");
+const preact_1 = __turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/cbw-sdk/node_modules/preact/dist/preact.module.js [app-client] (ecmascript)");
 const util_1 = __turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/cbw-sdk/dist/core/util.js [app-client] (ecmascript)");
 const version_1 = __turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/cbw-sdk/dist/version.js [app-client] (ecmascript)");
 const CloseIcon_1 = __turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/cbw-sdk/dist/relay/walletlink/ui/components/icons/CloseIcon.js [app-client] (ecmascript)");
@@ -4599,7 +4599,7 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.ArrowLeftIcon = void 0;
-const preact_1 = __turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/preact/dist/preact.module.js [app-client] (ecmascript)");
+const preact_1 = __turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/cbw-sdk/node_modules/preact/dist/preact.module.js [app-client] (ecmascript)");
 function ArrowLeftIcon(props) {
     return (0, preact_1.h)("svg", Object.assign({
         width: "16",
@@ -4619,7 +4619,7 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.LaptopIcon = void 0;
-const preact_1 = __turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/preact/dist/preact.module.js [app-client] (ecmascript)");
+const preact_1 = __turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/cbw-sdk/node_modules/preact/dist/preact.module.js [app-client] (ecmascript)");
 function LaptopIcon(props) {
     return (0, preact_1.h)("svg", Object.assign({
         width: "14",
@@ -4641,7 +4641,7 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.SafeIcon = void 0;
-const preact_1 = __turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/preact/dist/preact.module.js [app-client] (ecmascript)");
+const preact_1 = __turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/cbw-sdk/node_modules/preact/dist/preact.module.js [app-client] (ecmascript)");
 function SafeIcon(props) {
     return (0, preact_1.h)("svg", Object.assign({
         width: "14",
@@ -4679,8 +4679,8 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.TryExtensionContent = void 0;
 const clsx_1 = __importDefault(__turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/cbw-sdk/node_modules/clsx/dist/clsx.m.js [app-client] (ecmascript)"));
-const preact_1 = __turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/preact/dist/preact.module.js [app-client] (ecmascript)");
-const hooks_1 = __turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/preact/hooks/dist/hooks.module.js [app-client] (ecmascript)");
+const preact_1 = __turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/cbw-sdk/node_modules/preact/dist/preact.module.js [app-client] (ecmascript)");
+const hooks_1 = __turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/cbw-sdk/node_modules/preact/hooks/dist/hooks.module.js [app-client] (ecmascript)");
 const ArrowLeftIcon_1 = __turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/cbw-sdk/dist/relay/walletlink/ui/components/icons/ArrowLeftIcon.js [app-client] (ecmascript)");
 const LaptopIcon_1 = __turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/cbw-sdk/dist/relay/walletlink/ui/components/icons/LaptopIcon.js [app-client] (ecmascript)");
 const SafeIcon_1 = __turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/cbw-sdk/dist/relay/walletlink/ui/components/icons/SafeIcon.js [app-client] (ecmascript)");
@@ -4767,8 +4767,8 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.ConnectDialog = void 0;
 const clsx_1 = __importDefault(__turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/cbw-sdk/node_modules/clsx/dist/clsx.m.js [app-client] (ecmascript)"));
-const preact_1 = __turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/preact/dist/preact.module.js [app-client] (ecmascript)");
-const hooks_1 = __turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/preact/hooks/dist/hooks.module.js [app-client] (ecmascript)");
+const preact_1 = __turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/cbw-sdk/node_modules/preact/dist/preact.module.js [app-client] (ecmascript)");
+const hooks_1 = __turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/cbw-sdk/node_modules/preact/hooks/dist/hooks.module.js [app-client] (ecmascript)");
 const ConnectContent_1 = __turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/cbw-sdk/dist/relay/walletlink/ui/components/ConnectContent/ConnectContent.js [app-client] (ecmascript)");
 const TryExtensionContent_1 = __turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/cbw-sdk/dist/relay/walletlink/ui/components/TryExtensionContent/TryExtensionContent.js [app-client] (ecmascript)");
 const ConnectDialog_css_1 = __importDefault(__turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/cbw-sdk/dist/relay/walletlink/ui/components/ConnectDialog/ConnectDialog-css.js [app-client] (ecmascript)"));
@@ -4829,7 +4829,7 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.LinkFlow = void 0;
-const preact_1 = __turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/preact/dist/preact.module.js [app-client] (ecmascript)");
+const preact_1 = __turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/cbw-sdk/node_modules/preact/dist/preact.module.js [app-client] (ecmascript)");
 const ConnectDialog_1 = __turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/cbw-sdk/dist/relay/walletlink/ui/components/ConnectDialog/ConnectDialog.js [app-client] (ecmascript)");
 class LinkFlow {
     attach(el) {
@@ -4930,8 +4930,8 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.SnackbarInstance = exports.SnackbarContainer = exports.Snackbar = void 0;
 const clsx_1 = __importDefault(__turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/cbw-sdk/node_modules/clsx/dist/clsx.m.js [app-client] (ecmascript)"));
-const preact_1 = __turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/preact/dist/preact.module.js [app-client] (ecmascript)");
-const hooks_1 = __turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/preact/hooks/dist/hooks.module.js [app-client] (ecmascript)");
+const preact_1 = __turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/cbw-sdk/node_modules/preact/dist/preact.module.js [app-client] (ecmascript)");
+const hooks_1 = __turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/cbw-sdk/node_modules/preact/hooks/dist/hooks.module.js [app-client] (ecmascript)");
 const Snackbar_css_1 = __importDefault(__turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/cbw-sdk/dist/relay/walletlink/ui/components/Snackbar/Snackbar-css.js [app-client] (ecmascript)"));
 const cblogo = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTEuNDkyIDEwLjQxOWE4LjkzIDguOTMgMCAwMTguOTMtOC45M2gxMS4xNjNhOC45MyA4LjkzIDAgMDE4LjkzIDguOTN2MTEuMTYzYTguOTMgOC45MyAwIDAxLTguOTMgOC45M0gxMC40MjJhOC45MyA4LjkzIDAgMDEtOC45My04LjkzVjEwLjQxOXoiIGZpbGw9IiMxNjUyRjAiLz48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEwLjQxOSAwSDIxLjU4QzI3LjMzNSAwIDMyIDQuNjY1IDMyIDEwLjQxOVYyMS41OEMzMiAyNy4zMzUgMjcuMzM1IDMyIDIxLjU4MSAzMkgxMC40MkM0LjY2NSAzMiAwIDI3LjMzNSAwIDIxLjU4MVYxMC40MkMwIDQuNjY1IDQuNjY1IDAgMTAuNDE5IDB6bTAgMS40ODhhOC45MyA4LjkzIDAgMDAtOC45MyA4LjkzdjExLjE2M2E4LjkzIDguOTMgMCAwMDguOTMgOC45M0gyMS41OGE4LjkzIDguOTMgMCAwMDguOTMtOC45M1YxMC40MmE4LjkzIDguOTMgMCAwMC04LjkzLTguOTNIMTAuNDJ6IiBmaWxsPSIjZmZmIi8+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xNS45OTggMjYuMDQ5Yy01LjU0OSAwLTEwLjA0Ny00LjQ5OC0xMC4wNDctMTAuMDQ3IDAtNS41NDggNC40OTgtMTAuMDQ2IDEwLjA0Ny0xMC4wNDYgNS41NDggMCAxMC4wNDYgNC40OTggMTAuMDQ2IDEwLjA0NiAwIDUuNTQ5LTQuNDk4IDEwLjA0Ny0xMC4wNDYgMTAuMDQ3eiIgZmlsbD0iI2ZmZiIvPjxwYXRoIGQ9Ik0xMi43NjIgMTQuMjU0YzAtLjgyMi42NjctMS40ODkgMS40ODktMS40ODloMy40OTdjLjgyMiAwIDEuNDg4LjY2NiAxLjQ4OCAxLjQ4OXYzLjQ5N2MwIC44MjItLjY2NiAxLjQ4OC0xLjQ4OCAxLjQ4OGgtMy40OTdhMS40ODggMS40ODggMCAwMS0xLjQ4OS0xLjQ4OHYtMy40OTh6IiBmaWxsPSIjMTY1MkYwIi8+PC9zdmc+";
 const gearIcon = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTEyIDYuNzV2LTEuNWwtMS43Mi0uNTdjLS4wOC0uMjctLjE5LS41Mi0uMzItLjc3bC44MS0xLjYyLTEuMDYtMS4wNi0xLjYyLjgxYy0uMjQtLjEzLS41LS4yNC0uNzctLjMyTDYuNzUgMGgtMS41bC0uNTcgMS43MmMtLjI3LjA4LS41My4xOS0uNzcuMzJsLTEuNjItLjgxLTEuMDYgMS4wNi44MSAxLjYyYy0uMTMuMjQtLjI0LjUtLjMyLjc3TDAgNS4yNXYxLjVsMS43Mi41N2MuMDguMjcuMTkuNTMuMzIuNzdsLS44MSAxLjYyIDEuMDYgMS4wNiAxLjYyLS44MWMuMjQuMTMuNS4yMy43Ny4zMkw1LjI1IDEyaDEuNWwuNTctMS43MmMuMjctLjA4LjUyLS4xOS43Ny0uMzJsMS42Mi44MSAxLjA2LTEuMDYtLjgxLTEuNjJjLjEzLS4yNC4yMy0uNS4zMi0uNzdMMTIgNi43NXpNNiA4LjVhMi41IDIuNSAwIDAxMC01IDIuNSAyLjUgMCAwMTAgNXoiIGZpbGw9IiMwNTBGMTkiLz48L3N2Zz4=";
@@ -6052,7 +6052,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.RedirectDialog = void 0;
 const clsx_1 = __importDefault(__turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/cbw-sdk/node_modules/clsx/dist/clsx.m.js [app-client] (ecmascript)"));
-const preact_1 = __turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/preact/dist/preact.module.js [app-client] (ecmascript)");
+const preact_1 = __turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/cbw-sdk/node_modules/preact/dist/preact.module.js [app-client] (ecmascript)");
 const cssReset_1 = __turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/cbw-sdk/dist/lib/cssReset.js [app-client] (ecmascript)");
 const Snackbar_1 = __turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/cbw-sdk/dist/relay/walletlink/ui/components/Snackbar/index.js [app-client] (ecmascript)");
 const RedirectDialog_css_1 = __importDefault(__turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/cbw-sdk/dist/relay/walletlink/ui/components/RedirectDialog/RedirectDialog-css.js [app-client] (ecmascript)"));

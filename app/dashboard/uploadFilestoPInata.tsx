@@ -1,33 +1,49 @@
 "use client"
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { ethers } from "ethers";
 import { Trustchain_abi } from "../../lib/contract-abi.ts";
 import { UploadModal } from "../../components/ui/upload-modal.tsx";
+import { transactionType } from "viem";
 
-export default function UploadFiles() {
+interface UploadFilesProps {
+  onUploadSuccess: (transaction: { hash: string; contractAddress: string; timestamp: string }) => void;
+}
+
+declare const window: Window & typeof globalThis & { ethereum?: any };
+
+export default function UploadFiles({ onUploadSuccess }: UploadFilesProps) {
   const [url, setUrl] = useState("");
   const [uploading, setUploading] = useState(false);
 
   const ContractAddress = process.env.NEXT_PUBLIC_CONTRACT_ADDRESS;
   const rpcUrl = process.env.NEXT_PUBLIC_HARDHAT_RPC_URL || "http://127.0.0.1:8545";
 
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      // This effect runs only on the client side
+      // Any code that depends on `window` can be placed here
+    }
+  }, []);
+
   const uploadFile = async (selectedFile: File) => {
     try {
       setUploading(true);
-
-      // ✅ Step 1: Upload file
       const data = new FormData();
       data.set("file", selectedFile);
       const uploadRequest = await fetch("/api/files", { method: "POST", body: data });
+      const { cid, url } = await uploadRequest.json();
+      if (typeof window !== 'undefined') {
+        localStorage.setItem("cid", cid);
+        console.log("CID sent to local storage.")
+      }
+      console.log("CID:", cid);
+      console.log("URL:", url);
 
-      // ✅ Step 2: Hash file contents
       const arrayBuffer = await selectedFile.arrayBuffer();
       const hashBuffer = await crypto.subtle.digest("SHA-256", arrayBuffer);
       const hashArray = Array.from(new Uint8Array(hashBuffer));
       const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
       console.log("sha256 hash", hashHex);
-
-      // ✅ Step 3: Connect to Hardhat local node (no MetaMask needed)
       const provider = new ethers.JsonRpcProvider(rpcUrl);
 
       // by default Hardhat provides 20 accounts, we can use index 0
@@ -39,14 +55,26 @@ export default function UploadFiles() {
       // ✅ Step 5: Send transaction
       const tx = await contract.storeHash(hashHex);
       await tx.wait();
-      console.log("Transaction Sent: ", tx.hash);
+      console.log("Transaction Sent after network switch: ", tx.hash);
 
-      // ✅ Step 6: Handle upload result
-      const signedUrl = await uploadRequest.json();
-      setUrl(signedUrl);
-      setUploading(false);
-    } catch (e: any) {
-      console.error("Error during uploadFile:", e);
+      // Store transaction data in local storage
+      if (typeof window !== 'undefined') {
+        const transactions = JSON.parse(localStorage.getItem("transactions") || "[]");
+        transactions.push({
+          hash: hashHex,
+          contractAddress: ContractAddress,
+          timestamp: new Date().toISOString(),
+        });
+        localStorage.setItem("transactions", JSON.stringify(transactions));
+      }
+      onUploadSuccess({
+        hash: hashHex,
+        contractAddress: ContractAddress!,
+        timestamp: new Date().toISOString(),
+      });
+
+    } catch (switchError: any) {
+      console.error("Error during uploadFile:", switchError);
       setUploading(false);
     }
   };

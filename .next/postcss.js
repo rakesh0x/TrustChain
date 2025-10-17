@@ -1,5 +1,5 @@
 var R=require("./build/chunks/[turbopack]_runtime.js")("postcss.js")
-R.c("build/chunks/[turbopack-node]_transforms_postcss_ts_6b8f9972._.js")
+R.c("build/chunks/[turbopack-node]_transforms_postcss_ts_2c01c61b._.js")
 R.c("build/chunks/[root-of-the-server]__0c74e5fe._.js")
 R.m("[turbopack-node]/globals.ts [postcss] (ecmascript)")
 R.m("[turbopack-node]/ipc/evaluate.ts/evaluate.js { INNER => \"[turbopack-node]/transforms/postcss.ts { CONFIG => \\\"[project]/Documents/Projects/Truedocs/truedocs/postcss.config.mjs [postcss] (ecmascript)\\\" } [postcss] (ecmascript)\", RUNTIME => \"[turbopack-node]/ipc/evaluate.ts [postcss] (ecmascript)\" } [postcss] (ecmascript)")

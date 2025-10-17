@@ -63,7 +63,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Tru
 ;
 const pinata = new __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$pinata$2f$dist$2f$index$2e$mjs__$5b$app$2d$route$5d$__$28$ecmascript$29$__$3c$locals$3e$__["PinataSDK"]({
     pinataJwt: `${process.env.PINATA_JWT_KEYS}`,
-    pinataGateway: `${process.env.NEXT_PUBLIC_GATEWAY_URL}`
+    pinataGateway: `${("TURBOPACK compile-time value", "apricot-realistic-bobolink-877.mypinata.cloud")}`
 });
 }),
 "[project]/Documents/Projects/Truedocs/truedocs/app/api/files/route.ts [app-route] (ecmascript)", ((__turbopack_context__) => {
@@ -83,7 +83,10 @@ async function POST(request) {
         const file = data.get("file");
         const { cid } = await __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$utils$2f$config$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["pinata"].upload.public.file(file);
         const url = await __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$utils$2f$config$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["pinata"].gateways.public.convert(cid);
-        return __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json(url, {
+        return __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
+            cid,
+            url
+        }, {
             status: 200
         });
     } catch (e) {
