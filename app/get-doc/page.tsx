@@ -4,7 +4,6 @@ import { useEffect, useState } from "react"
 import { GetDataTable } from "./getDocumentsTable"
 import { SidebarDemo } from "../dashboard/sidebar";
 
-
 export default function getDocuments() {
     interface ICidOfAll {
         cid?: string | number;
@@ -28,12 +27,11 @@ export default function getDocuments() {
         if (storedCid) {
             setImageUrlFormat(`https://${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/${storedCid}`);
         }
-
     }, [])
     
 
     return (
-        <div className="flex  flex-2 p-2">
+        <div className="flex flex-2 p-2">
             <SidebarDemo/>
             <div className="ml-2 w-full">
                 <GetDataTable data={[{ ImageURL: imageUrlFormat || '', hash: hash || '' }]}  />

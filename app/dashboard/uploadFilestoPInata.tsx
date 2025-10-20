@@ -1,4 +1,5 @@
 "use client"
+
 import { useState, useEffect } from "react";
 import { ethers } from "ethers";
 import { Trustchain_abi } from "../../lib/contract-abi.ts";
@@ -16,7 +17,7 @@ export default function UploadFiles({ onUploadSuccess }: UploadFilesProps) {
   const [uploading, setUploading] = useState(false);
 
   const ContractAddress = process.env.NEXT_PUBLIC_CONTRACT_ADDRESS;
-  const rpcUrl = process.env.NEXT_PUBLIC_HARDHAT_RPC_URL || "http://127.0.0.1:8545";
+  const rpcUrl = process.env.NEXT_PUBLIC_SEPOLIA_RPC_URL;
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
@@ -26,52 +27,58 @@ export default function UploadFiles({ onUploadSuccess }: UploadFilesProps) {
   const uploadFile = async (selectedFile: File) => {
     try {
       setUploading(true);
+
+      //getting cid from the api endpoint
       const data = new FormData();
       data.set("file", selectedFile);
       const uploadRequest = await fetch("/api/files", { method: "POST", body: data });
       const { cid, url } = await uploadRequest.json();
-      if (typeof window !== 'undefined') {
-        localStorage.setItem("cid", cid);
-        console.log("CID sent to local storage.")
-      }
+
+      // storing it to local storage
+      localStorage.setItem("cid", cid);
       console.log("CID:", cid);
       console.log("URL:", url);
 
+      //converting it to hash 
       const arrayBuffer = await selectedFile.arrayBuffer();
       const hashBuffer = await crypto.subtle.digest("SHA-256", arrayBuffer);
       const hashArray = Array.from(new Uint8Array(hashBuffer));
       const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
       console.log("sha256 hash", hashHex);
-      const provider = new ethers.JsonRpcProvider(rpcUrl);
 
-      const signer = await provider.getSigner(0);
+      //metamask wallet sign-in 
+      if (!window.ethereum) throw new Error("MetaMask not detected");
+      const provider = new ethers.BrowserProvider(window.ethereum);
+      await provider.send("eth_requestAccounts", []);
+      const signer = await provider.getSigner();
 
+      //storing all the data in contract call 
       const contract = new ethers.Contract(ContractAddress!, Trustchain_abi, signer);
 
+      // Send transaction
       const tx = await contract.storeHash(hashHex);
       await tx.wait();
-      console.log("Transaction Sent after network switch: ", tx.hash);
+      console.log("Transaction Sent:", tx.hash);
 
-      // Store transaction data in local storage
-      if (typeof window !== 'undefined') {
-        const transactions = JSON.parse(localStorage.getItem("transactions") || "[]");
-        transactions.push({
-          hash: hashHex,
-          contractAddress: ContractAddress,
-          timestamp: new Date().toISOString(),
-          ImageURL: url,
-        });
-        localStorage.setItem("transactions", JSON.stringify(transactions));
-      }
+      // Store locally in localstorage
+      const transactions = JSON.parse(localStorage.getItem("transactions") || "[]");
+      transactions.push({
+        hash: hashHex,
+        contractAddress: ContractAddress,
+        timestamp: new Date().toISOString(),
+        ImageURL: url,
+      });
+      localStorage.setItem("transactions", JSON.stringify(transactions));
+
       onUploadSuccess({
         hash: hashHex,
         contractAddress: ContractAddress!,
         timestamp: new Date().toISOString(),
-        ImageURL: url, 
+        ImageURL: url,
       });
-
-    } catch (switchError: any) {
-      console.error("Error during uploadFile:", switchError);
+    } catch (error: any) {
+      console.error("Error during uploadFile:", error);
+    } finally {
       setUploading(false);
     }
   };

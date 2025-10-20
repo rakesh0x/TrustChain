@@ -16,7 +16,7 @@ export async function main() {
         console.log(url);
     } catch (error) {
         console.log(error);
-    }
+    }   
 }
 
 main();

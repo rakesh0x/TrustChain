@@ -2,6 +2,7 @@
 
 require("dotenv").config({ path: ".env.local" });
 require("@nomicfoundation/hardhat-toolbox");
+require("hardhat-ens-mock");
 
 /** @type import('hardhat/config').HardhatUserConfig */
 const config = {

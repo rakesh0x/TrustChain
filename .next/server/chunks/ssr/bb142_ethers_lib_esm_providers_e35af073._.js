@@ -7601,7 +7601,7 @@ __turbopack_context__.s([
     "WebSocketProvider",
     ()=>WebSocketProvider
 ]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ethers$2f$node_modules$2f$ws$2f$lib$2f$websocket$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__WebSocket$3e$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/ethers/node_modules/ws/lib/websocket.js [app-ssr] (ecmascript) <export default as WebSocket>"); /*-browser*/ 
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ws$2f$lib$2f$websocket$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__WebSocket$3e$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/ws/lib/websocket.js [app-ssr] (ecmascript) <export default as WebSocket>"); /*-browser*/ 
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ethers$2f$lib$2e$esm$2f$providers$2f$provider$2d$socket$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/ethers/lib.esm/providers/provider-socket.js [app-ssr] (ecmascript)");
 ;
 ;
@@ -7618,7 +7618,7 @@ class WebSocketProvider extends __TURBOPACK__imported__module__$5b$project$5d2f$
         super(network, options);
         if (typeof url === "string") {
             this.#connect = ()=>{
-                return new __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ethers$2f$node_modules$2f$ws$2f$lib$2f$websocket$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__WebSocket$3e$__["WebSocket"](url);
+                return new __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ws$2f$lib$2f$websocket$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__WebSocket$3e$__["WebSocket"](url);
             };
             this.#websocket = this.#connect();
         } else if (typeof url === "function") {

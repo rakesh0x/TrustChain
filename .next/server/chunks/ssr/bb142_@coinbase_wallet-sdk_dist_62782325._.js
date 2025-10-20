@@ -2415,23 +2415,23 @@ __turbopack_context__.s([
     "createStorage",
     ()=>createStorage
 ]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$idb$2d$keyval$2f$dist$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@coinbase/wallet-sdk/node_modules/idb-keyval/dist/index.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$idb$2d$keyval$2f$dist$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/idb-keyval/dist/index.js [app-ssr] (ecmascript)");
 ;
 function createStorage(scope, name) {
-    const store = typeof indexedDB !== 'undefined' ? (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$idb$2d$keyval$2f$dist$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["createStore"])(scope, name) : undefined;
+    const store = typeof indexedDB !== 'undefined' ? (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$idb$2d$keyval$2f$dist$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["createStore"])(scope, name) : undefined;
     return {
         getItem: async (key)=>{
-            const value = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$idb$2d$keyval$2f$dist$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["get"])(key, store);
+            const value = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$idb$2d$keyval$2f$dist$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["get"])(key, store);
             if (!value) {
                 return null;
             }
             return value;
         },
         removeItem: async (key)=>{
-            return (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$idb$2d$keyval$2f$dist$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["del"])(key, store);
+            return (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$idb$2d$keyval$2f$dist$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["del"])(key, store);
         },
         setItem: async (key, value)=>{
-            return (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$idb$2d$keyval$2f$dist$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["set"])(key, value, store);
+            return (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$idb$2d$keyval$2f$dist$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["set"])(key, value, store);
         }
     };
 } //# sourceMappingURL=storage.js.map
@@ -2457,11 +2457,11 @@ __turbopack_context__.s([
     "storage",
     ()=>storage
 ]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Hex$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__Hex$3e$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/ox/_esm/core/Hex.js [app-ssr] (ecmascript) <export * as Hex>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$PublicKey$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__PublicKey$3e$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/ox/_esm/core/PublicKey.js [app-ssr] (ecmascript) <export * as PublicKey>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Signature$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__Signature$3e$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/ox/_esm/core/Signature.js [app-ssr] (ecmascript) <export * as Signature>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$WebAuthnP256$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__WebAuthnP256$3e$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/ox/_esm/core/WebAuthnP256.js [app-ssr] (ecmascript) <export * as WebAuthnP256>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$WebCryptoP256$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__WebCryptoP256$3e$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/ox/_esm/core/WebCryptoP256.js [app-ssr] (ecmascript) <export * as WebCryptoP256>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Hex$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__Hex$3e$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@coinbase/wallet-sdk/node_modules/ox/_esm/core/Hex.js [app-ssr] (ecmascript) <export * as Hex>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$PublicKey$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__PublicKey$3e$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@coinbase/wallet-sdk/node_modules/ox/_esm/core/PublicKey.js [app-ssr] (ecmascript) <export * as PublicKey>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Signature$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__Signature$3e$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@coinbase/wallet-sdk/node_modules/ox/_esm/core/Signature.js [app-ssr] (ecmascript) <export * as Signature>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$WebAuthnP256$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__WebAuthnP256$3e$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@coinbase/wallet-sdk/node_modules/ox/_esm/core/WebAuthnP256.js [app-ssr] (ecmascript) <export * as WebAuthnP256>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$WebCryptoP256$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__WebCryptoP256$3e$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@coinbase/wallet-sdk/node_modules/ox/_esm/core/WebCryptoP256.js [app-ssr] (ecmascript) <export * as WebCryptoP256>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$viem$2f$_esm$2f$utils$2f$signature$2f$hashMessage$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/viem/_esm/utils/signature/hashMessage.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$viem$2f$_esm$2f$utils$2f$signature$2f$hashTypedData$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/viem/_esm/utils/signature/hashTypedData.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$dist$2f$kms$2f$crypto$2d$key$2f$storage$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@coinbase/wallet-sdk/dist/kms/crypto-key/storage.js [app-ssr] (ecmascript)");
@@ -2473,10 +2473,10 @@ const STORAGE_NAME = 'keys';
 const ACTIVE_ID_KEY = 'activeId';
 const storage = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$dist$2f$kms$2f$crypto$2d$key$2f$storage$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["createStorage"])(STORAGE_SCOPE, STORAGE_NAME);
 async function generateKeyPair() {
-    const keypair = await __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$WebCryptoP256$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__WebCryptoP256$3e$__["WebCryptoP256"].createKeyPair({
+    const keypair = await __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$WebCryptoP256$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__WebCryptoP256$3e$__["WebCryptoP256"].createKeyPair({
         extractable: false
     });
-    const publicKey = __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Hex$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__Hex$3e$__["Hex"].slice(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$PublicKey$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__PublicKey$3e$__["PublicKey"].toHex(keypair.publicKey), 1);
+    const publicKey = __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Hex$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__Hex$3e$__["Hex"].slice(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$PublicKey$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__PublicKey$3e$__["PublicKey"].toHex(keypair.publicKey), 1);
     await storage.setItem(publicKey, keypair);
     await storage.setItem(ACTIVE_ID_KEY, publicKey);
     return keypair;
@@ -2496,7 +2496,7 @@ async function getOrCreateKeypair() {
     const keypair = await getKeypair();
     if (!keypair) {
         const kp = await generateKeyPair();
-        const pubKey = __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Hex$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__Hex$3e$__["Hex"].slice(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$PublicKey$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__PublicKey$3e$__["PublicKey"].toHex(kp.publicKey), 1);
+        const pubKey = __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Hex$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__Hex$3e$__["Hex"].slice(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$PublicKey$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__PublicKey$3e$__["PublicKey"].toHex(kp.publicKey), 1);
         await storage.setItem(pubKey, kp);
         await storage.setItem(ACTIVE_ID_KEY, pubKey);
         return kp;
@@ -2507,19 +2507,19 @@ async function getAccount() {
     const keypair = await getOrCreateKeypair();
     /**
      * public key / address
-     */ const publicKey = __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Hex$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__Hex$3e$__["Hex"].slice(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$PublicKey$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__PublicKey$3e$__["PublicKey"].toHex(keypair.publicKey), 1);
+     */ const publicKey = __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Hex$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__Hex$3e$__["Hex"].slice(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$PublicKey$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__PublicKey$3e$__["PublicKey"].toHex(keypair.publicKey), 1);
     const sign = async (payload)=>{
-        const { payload: message, metadata } = __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$WebAuthnP256$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__WebAuthnP256$3e$__["WebAuthnP256"].getSignPayload({
+        const { payload: message, metadata } = __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$WebAuthnP256$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__WebAuthnP256$3e$__["WebAuthnP256"].getSignPayload({
             challenge: payload,
             origin: 'https://keys.coinbase.com',
             userVerification: 'preferred'
         });
-        const signature = await __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$WebCryptoP256$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__WebCryptoP256$3e$__["WebCryptoP256"].sign({
+        const signature = await __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$WebCryptoP256$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__WebCryptoP256$3e$__["WebCryptoP256"].sign({
             payload: message,
             privateKey: keypair.privateKey
         });
         return {
-            signature: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Signature$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__Signature$3e$__["Signature"].toHex(signature),
+            signature: __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Signature$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__Signature$3e$__["Signature"].toHex(signature),
             raw: {},
             webauthn: metadata
         };
@@ -2550,7 +2550,7 @@ async function removeCryptoKey() {
     if (!keypair) {
         return;
     }
-    await storage.removeItem(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Hex$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__Hex$3e$__["Hex"].slice(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$PublicKey$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__PublicKey$3e$__["PublicKey"].toHex(keypair.publicKey), 1));
+    await storage.removeItem(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Hex$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__Hex$3e$__["Hex"].slice(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$PublicKey$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__PublicKey$3e$__["PublicKey"].toHex(keypair.publicKey), 1));
     await storage.removeItem(ACTIVE_ID_KEY);
 } //# sourceMappingURL=index.js.map
 }),
@@ -5787,7 +5787,7 @@ __turbopack_context__.s([
     "convertCredentialToJSON",
     ()=>convertCredentialToJSON
 ]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Signature$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__Signature$3e$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/ox/_esm/core/Signature.js [app-ssr] (ecmascript) <export * as Signature>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Signature$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__Signature$3e$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@coinbase/wallet-sdk/node_modules/ox/_esm/core/Signature.js [app-ssr] (ecmascript) <export * as Signature>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$viem$2f$_esm$2f$utils$2f$encoding$2f$toBytes$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/viem/_esm/utils/encoding/toBytes.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$viem$2f$_esm$2f$utils$2f$encoding$2f$toHex$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/viem/_esm/utils/encoding/toHex.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$viem$2f$_esm$2f$utils$2f$data$2f$trim$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/viem/_esm/utils/data/trim.js [app-ssr] (ecmascript)");
@@ -5803,7 +5803,7 @@ function arrayBufferToBase64Url(buffer) {
     return base64ToBase64Url(base64String);
 }
 function convertCredentialToJSON({ webauthn, signature, id }) {
-    const signatureRaw = __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Signature$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__Signature$3e$__["Signature"].fromHex(signature);
+    const signatureRaw = __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Signature$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__$2a$__as__Signature$3e$__["Signature"].fromHex(signature);
     return {
         id,
         rawId: arrayBufferToBase64Url((0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$viem$2f$_esm$2f$utils$2f$encoding$2f$toBytes$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["stringToBytes"])(id)),
@@ -5854,7 +5854,7 @@ __turbopack_context__.s([
     "wrapSignature",
     ()=>wrapSignature
 ]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Signature$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/ox/_esm/core/Signature.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Signature$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@coinbase/wallet-sdk/node_modules/ox/_esm/core/Signature.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$viem$2f$_esm$2f$errors$2f$base$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/viem/_esm/errors/base.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$viem$2f$_esm$2f$utils$2f$abi$2f$decodeFunctionData$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/viem/_esm/utils/abi/decodeFunctionData.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$viem$2f$_esm$2f$utils$2f$abi$2f$encodeAbiParameters$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/viem/_esm/utils/abi/encodeAbiParameters.js [app-ssr] (ecmascript)");
@@ -6096,7 +6096,7 @@ function toReplaySafeHash({ address, chainId, hash }) {
     });
 }
 function toWebAuthnSignature({ webauthn, signature }) {
-    const { r, s } = __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Signature$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["fromHex"](signature);
+    const { r, s } = __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f$ox$2f$_esm$2f$core$2f$Signature$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["fromHex"](signature);
     return (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f$viem$2f$_esm$2f$utils$2f$abi$2f$encodeAbiParameters$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["encodeAbiParameters"])([
         {
             components: [
@@ -7626,7 +7626,7 @@ const logWalletLinkConnectionFetchUnseenEventsFailed = ()=>{
 // Extracted from https://github.com/ethereumjs/ethereumjs-util and stripped out irrelevant code
 // Original code licensed under the Mozilla Public License Version 2.0
 /* eslint-disable */ //prettier-ignore
-const { keccak_256 } = __turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@coinbase/wallet-sdk/node_modules/@noble/hashes/sha3.js [app-ssr] (ecmascript)");
+const { keccak_256 } = __turbopack_context__.r("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@noble/hashes/sha3.js [app-ssr] (ecmascript)");
 /**
  * Returns a buffer filled with 0s
  * @method zeros
@@ -9150,8 +9150,8 @@ __turbopack_context__.s([
     "WalletLinkSession",
     ()=>WalletLinkSession
 ]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f40$noble$2f$hashes$2f$esm$2f$sha256$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@coinbase/wallet-sdk/node_modules/@noble/hashes/esm/sha256.js [app-ssr] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f40$noble$2f$hashes$2f$esm$2f$utils$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@coinbase/wallet-sdk/node_modules/@noble/hashes/esm/utils.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$hashes$2f$esm$2f$sha256$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@noble/hashes/esm/sha256.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$hashes$2f$esm$2f$utils$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@noble/hashes/esm/utils.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$dist$2f$core$2f$type$2f$util$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Documents/Projects/Truedocs/truedocs/node_modules/@coinbase/wallet-sdk/dist/core/type/util.js [app-ssr] (ecmascript)");
 ;
 ;
@@ -9164,7 +9164,7 @@ class WalletLinkSession {
         this.storage = storage;
         this.id = id;
         this.secret = secret;
-        this.key = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f40$noble$2f$hashes$2f$esm$2f$utils$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["bytesToHex"])((0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$coinbase$2f$wallet$2d$sdk$2f$node_modules$2f40$noble$2f$hashes$2f$esm$2f$sha256$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["sha256"])(`${id}, ${secret} WalletLink`));
+        this.key = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$hashes$2f$esm$2f$utils$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["bytesToHex"])((0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Projects$2f$Truedocs$2f$truedocs$2f$node_modules$2f40$noble$2f$hashes$2f$esm$2f$sha256$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["sha256"])(`${id}, ${secret} WalletLink`));
         this._linked = !!linked;
     }
     static create(storage) {
