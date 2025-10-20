@@ -5,7 +5,7 @@
 /dist
 
 # build files
-/.next
+.next
 
 # pnpm deploy output
 /bundle
