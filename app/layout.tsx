@@ -38,6 +38,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <Navbar/>
+
           <WagmiProvider>{children}</WagmiProvider>
           <Toaster />
         </ThemeProvider>

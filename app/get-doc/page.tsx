@@ -4,10 +4,20 @@ import { useEffect, useState } from "react"
 import { GetDataTable } from "./getDocumentsTable"
 import { SidebarDemo } from "../dashboard/sidebar";
 
+
 export default function getDocuments() {
+    interface ICidOfAll {
+        cid?: string | number;
+        hash: string;
+        imageUrl: string;
+    }
+
+    type CidOfAllType = ICidOfAll[];
+
     const [cid, setCid] = useState<string | null>(null);
     const [hash, setHash] = useState<string | null>(null);
     const [imageUrlFormat, setImageUrlFormat] = useState<string | null>(null);
+    let CidofAll: CidOfAllType = [];
 
     useEffect(() => {
         const storedCid = localStorage.getItem('cid');
@@ -23,8 +33,7 @@ export default function getDocuments() {
     
 
     return (
-
-        <div className="flex  flex-2 p-3">
+        <div className="flex  flex-2 p-2">
             <SidebarDemo/>
             <div className="ml-2 w-full">
                 <GetDataTable data={[{ ImageURL: imageUrlFormat || '', hash: hash || '' }]}  />

@@ -14,28 +14,28 @@ export function SidebarDemo() {
   const links = [
     {
       label: "Home",
-      href: "/home",
+      href: "/dashboard",
       icon: (
         <Home className="h-5 w-5 flex-shrink-0 text-neutral-700 dark:text-neutral-200" />
       ),
     },
     {
-      label: "My Funds",
-      href: "/my-funds",
+      label: "Get all Documents",
+      href: "/get-doc",
       icon: (
         <PiggyBank className="h-5 w-5 flex-shrink-0 text-neutral-700 dark:text-neutral-200" />
       ),
     },
     {
-      label: "Discover",
-      href: "/discover",
+      label: "Check Documents",
+      href: "/check-doc",
       icon: (
         <Search className="h-5 w-5 flex-shrink-0 text-neutral-700 dark:text-neutral-200" />
       ),
     },
     {
-      label: "Create Fund",
-      href: "/create",
+      label: "Fund Trustchain",
+      href: "/fund",
       icon: (
         <Plus className="h-5 w-5 flex-shrink-0 text-neutral-700 dark:text-neutral-200" />
       ),

@@ -4,6 +4,7 @@ import { SidebarDemo } from "./sidebar";
 import UploadFiles from "./uploadFilestoPInata";
 import { useEffect, useState } from "react";
 import { DataTableDemo, Transaction } from "../../components/ui/table-data";
+import { GetDataTable } from "../get-doc/getDocumentsTable";
 
 export default function Dashboard() {
   const [transactions, setTransactions] = useState<Transaction[]>([]);

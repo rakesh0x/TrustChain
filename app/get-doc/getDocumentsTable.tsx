@@ -63,8 +63,6 @@ export function GetDataTable({ data }: DataTableDemoProps) {
     React.useState<VisibilityState>({})
   const [rowSelection, setRowSelection] = React.useState({})
 
-  
-
   const table = useReactTable({
     data,
     columns,

@@ -23,7 +23,6 @@ const Navbar = () => {
 				<ModeToggle />
 			</div>
 
-			{/* Mobile menu button */}
 			<div className="flex sm:hidden">
 				<Button
 					variant="ghost"

@@ -6,7 +6,7 @@ import { UploadModal } from "../../components/ui/upload-modal.tsx";
 import { transactionType } from "viem";
 
 interface UploadFilesProps {
-  onUploadSuccess: (transaction: { hash: string; contractAddress: string; timestamp: string }) => void;
+  onUploadSuccess: (transaction: { hash: string; contractAddress: string; timestamp: string, ImageURL: string }) => void;
 }
 
 declare const window: Window & typeof globalThis & { ethereum?: any };
@@ -20,8 +20,6 @@ export default function UploadFiles({ onUploadSuccess }: UploadFilesProps) {
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
-      // This effect runs only on the client side
-      // Any code that depends on `window` can be placed here
     }
   }, []);
 
@@ -46,13 +44,10 @@ export default function UploadFiles({ onUploadSuccess }: UploadFilesProps) {
       console.log("sha256 hash", hashHex);
       const provider = new ethers.JsonRpcProvider(rpcUrl);
 
-      // by default Hardhat provides 20 accounts, we can use index 0
       const signer = await provider.getSigner(0);
 
-      // ✅ Step 4: Create contract instance
       const contract = new ethers.Contract(ContractAddress!, Trustchain_abi, signer);
 
-      // ✅ Step 5: Send transaction
       const tx = await contract.storeHash(hashHex);
       await tx.wait();
       console.log("Transaction Sent after network switch: ", tx.hash);
@@ -64,6 +59,7 @@ export default function UploadFiles({ onUploadSuccess }: UploadFilesProps) {
           hash: hashHex,
           contractAddress: ContractAddress,
           timestamp: new Date().toISOString(),
+          ImageURL: url,
         });
         localStorage.setItem("transactions", JSON.stringify(transactions));
       }
@@ -71,6 +67,7 @@ export default function UploadFiles({ onUploadSuccess }: UploadFilesProps) {
         hash: hashHex,
         contractAddress: ContractAddress!,
         timestamp: new Date().toISOString(),
+        ImageURL: url, 
       });
 
     } catch (switchError: any) {

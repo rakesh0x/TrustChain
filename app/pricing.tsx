@@ -104,33 +104,6 @@ export default function Pricing() {
 							</CardFooter>
 						</div>
 					</Card>
-
-					{/* <Card className="flex flex-col">
-                        <CardHeader>
-                            <CardTitle className="font-medium">Startup</CardTitle>
-                            <span className="my-3 block text-2xl font-semibold">$29 / mo</span>
-                            <CardDescription className="text-sm">Per editor</CardDescription>
-                        </CardHeader>
-
-                        <CardContent className="space-y-4">
-                            <hr className="border-dashed" />
-
-                            <ul className="list-outside space-y-3 text-sm">
-                                {['Everything in Pro Plan', '5GB Cloud Storage', 'Email and Chat Support'].map((item, index) => (
-                                    <li key={index} className="flex items-center gap-2">
-                                        <Check className="size-3" />
-                                        {item}
-                                    </li>
-                                ))}
-                            </ul>
-                        </CardContent> */}
-					{/* 
-                        <CardFooter className="mt-auto">
-                            <Button asChild variant="outline" className="w-full">
-                                <Link href="">Get Started</Link>
-                            </Button>
-                        </CardFooter>
-                    </Card> */}
 				</div>
 			</div>
 		</section>
