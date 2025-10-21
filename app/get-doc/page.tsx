@@ -16,7 +16,7 @@ export default function GetDocuments() {
     const [cid, setCid] = useState<string | null>(null);
     const [hash, setHash] = useState<string | null>(null);
     const [imageUrlFormat, setImageUrlFormat] = useState<string | null>(null);
-    let CidofAll: CidOfAllType = [];
+    const CidofAll: CidOfAllType = [];
 
     useEffect(() => {
         const storedCid = localStorage.getItem('cid');

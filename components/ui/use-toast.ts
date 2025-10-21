@@ -31,8 +31,6 @@ type Action =
   | { type: ActionType["DISMISS_TOAST"]; toastId?: ToasterToast["id"] }
   | { type: ActionType["REMOVE_TOAST"]; toastId?: ToasterToast["id"] }
 
-interface Toast extends Omit<ToasterToast, "id"> {}
-
 let count = 0
 
 function genId() {
