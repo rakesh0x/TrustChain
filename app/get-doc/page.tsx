@@ -4,7 +4,7 @@ import { useEffect, useState } from "react"
 import { GetDataTable } from "./getDocumentsTable"
 import { SidebarDemo } from "../dashboard/sidebar";
 
-export default function getDocuments() {
+export default function GetDocuments() {
     interface ICidOfAll {
         cid?: string | number;
         hash: string;
