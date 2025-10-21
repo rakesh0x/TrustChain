@@ -22,14 +22,16 @@
       {
         "name": "next"
       }
-    ]
+    ],
+    "types": []
   },
   "include": [
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    ".next/types/**/*.ts"
-, "scripts/deploy.cjs"  ],
+    ".next/types/**/*.ts",
+    "scripts/deploy.cjs"
+  ],
   "exclude": [
     "node_modules"
   ]
