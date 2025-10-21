@@ -150,4 +150,4 @@ function useToast(): State & ActionCreators {
   }
 }
 
-export { useToast, toast }
+export { useToast }

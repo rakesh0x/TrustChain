@@ -13,7 +13,6 @@ export function CheckdocumentfromTrustchain() {
   const [hashExists, setHashExists] = useState<boolean | null>(null);
   const [index, setIndex] = useState("");
 
-
   // Connect to your local blockchain
   const provider = new ethers.JsonRpcProvider("https://eth-sepolia.g.alchemy.com/v2/jrwsleF2pRmk5BJQx6fzf");
 
