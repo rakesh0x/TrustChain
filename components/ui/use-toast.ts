@@ -109,7 +109,7 @@ function dispatch(action: Action) {
 }
 
 type ActionCreators = {
-  toast: ({ ...props }: Toast) => { id: string; dismiss: () => void }
+  toast: ({ ...props }: ToasterToast) => { id: string; dismiss: () => void }
   dismiss: (toastId?: string) => void
 }
 
@@ -128,7 +128,7 @@ function useToast(): State & ActionCreators {
 
   return {
     ...internalState,
-    toast: ({ ...props }: Toast) => {
+    toast: ({ ...props }: ToasterToast) => {
       const id = genId()
       const update = (props: Partial<ToasterToast>) =>
         dispatch({ type: "UPDATE_TOAST", toast: { ...props, id } })
