@@ -15,7 +15,7 @@ export function CheckdocumentfromTrustchain() {
   const [hashExists, setHashExists] = useState<boolean | null>(null);
 
   const provider = new ethers.JsonRpcProvider(
-    jsonr
+    jsonrpcurl
   );
 
   const checkHash = async () => {
