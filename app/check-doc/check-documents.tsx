@@ -15,13 +15,18 @@ export function CheckdocumentfromTrustchain() {
   const [hashExists, setHashExists] = useState<boolean | null>(null);
 
   const provider = new ethers.JsonRpcProvider(
-    jsonrpcurl
+    jsonr
   );
 
   const checkHash = async () => {
     try {
       if (!hash) {
         alert("Please enter a hash");
+        return;
+      }
+
+      if (!contractAddress) {
+        alert("Contract address is not defined");
         return;
       }
 
