@@ -1,10 +1,4 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/api/files/route": "app/api/files/route.js",
-  "/api/getImage/route": "app/api/getImage/route.js",
   "/check-doc/page": "app/check-doc/page.js",
-  "/dashboard/page": "app/dashboard/page.js",
-  "/fund/page": "app/fund/page.js",
-  "/get-doc/page": "app/get-doc/page.js",
-  "/page": "app/page.js"
+  "/dashboard/page": "app/dashboard/page.js"
 }

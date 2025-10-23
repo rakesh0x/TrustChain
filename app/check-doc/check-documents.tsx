@@ -3,36 +3,46 @@
 import { useState } from "react";
 import { ethers } from "ethers";
 import { Trustchain_abi } from "@/lib/contract-abi";
-import { number } from "motion/react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
+const deployedContractAddress = process.env.NEXT_PUBLIC_DEPLOYED_CONTRACT;
+const jsonrpcurl = process.env.NEXT_PUBLIC_SEPOLIA_RPC_URL;
+
 export function CheckdocumentfromTrustchain() {
   const [hash, setHash] = useState("");
-  const [contractAddress, setContractAddress] = useState("0xE4D231f711CF9ea4F82592A8135D1e56355EC497");
+  const contractAddress = deployedContractAddress
   const [hashExists, setHashExists] = useState<boolean | null>(null);
-  const [index, setIndex] = useState("");
 
-  // Connect to your local blockchain
-  const provider = new ethers.JsonRpcProvider("https://eth-sepolia.g.alchemy.com/v2/jrwsleF2pRmk5BJQx6fzf");
+  const provider = new ethers.JsonRpcProvider(
+    jsonrpcurl
+  );
 
   const checkHash = async () => {
     try {
-      if (!contractAddress || !hash) {
-        alert("Please enter contract address and hash");
+      if (!hash) {
+        alert("Please enter a hash");
         return;
       }
 
       const contract = new ethers.Contract(contractAddress, Trustchain_abi, provider);
-      
-      const doc = await contract.getDocument(Number(index));
-     
-      if (doc && doc[1] === hash) {
+      const allDocs = await contract.getAllDocuments();
+
+      console.log("All docs:", allDocs);
+
+      interface Document {
+        hash: string;
+        [key: string]: any;
+      }
+
+      const foundDoc: Document | undefined = (allDocs as Document[]).find((doc) => doc.hash === hash);
+
+      if (foundDoc) {
         setHashExists(true);
+        console.log("Document found:", foundDoc);
       } else {
         setHashExists(false);
       }
-
     } catch (error) {
       console.error("Error checking hash:", error);
       setHashExists(false);
@@ -48,18 +58,15 @@ export function CheckdocumentfromTrustchain() {
         className="w-64 p-2 border rounded-lg"
       />
 
-      <Button
-        onClick={checkHash}
-        variant="default"
-      >
+      <Button onClick={checkHash} variant="default">
         Check Document
       </Button>
 
       {hashExists !== null && (
         <p className="text-lg">
           {hashExists
-            ? "Document Exists on Blockchain"
-            : "Hash not found"}
+            ? "✅ Document Exists on Blockchain"
+            : "❌ Hash not found"}
         </p>
       )}
     </div>
