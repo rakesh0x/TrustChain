@@ -5,6 +5,7 @@ import { ethers } from "ethers";
 import { Trustchain_abi } from "../../lib/contract-abi.ts";
 import { UploadModal } from "../../components/ui/upload-modal.tsx";
 import { transactionType } from "viem";
+import { useToast } from "../../components/ui/use-toast";
 
 interface UploadFilesProps {
   onUploadSuccess: (transaction: { hash: string; contractAddress: string; timestamp: string, ImageURL: string }) => void;
@@ -15,6 +16,7 @@ declare const window: Window & typeof globalThis & { ethereum?: any };
 export default function UploadFiles({ onUploadSuccess }: UploadFilesProps) {
   const [url, setUrl] = useState("");
   const [uploading, setUploading] = useState(false);
+  const toast = useToast();
 
   const ContractAddress = process.env.NEXT_PUBLIC_CONTRACT_ADDRESS;
   const rpcUrl = process.env.NEXT_PUBLIC_SEPOLIA_RPC_URL;
@@ -76,8 +78,20 @@ export default function UploadFiles({ onUploadSuccess }: UploadFilesProps) {
         timestamp: new Date().toISOString(),
         ImageURL: url,
       });
+
+      // Show success toas
+      toast.toast({
+        title: "✅ Upload Successful",
+        description: "Document stored on blockchain successfully",
+        variant: "success"
+      });
     } catch (error: any) {
       console.error("Error during uploadFile:", error);
+      toast.toast({
+        title: "❌ Upload Failed",
+        description: error.message || "Failed to upload document to blockchain",
+        variant: "destructive"
+      });
     } finally {
       setUploading(false);
     }
