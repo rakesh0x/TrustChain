@@ -9,7 +9,7 @@ import { useAuth } from "@clerk/nextjs";
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";
 
-const page = () => {
+const Page = () => {
 	const { userId, isSignedIn } = useAuth();
 
 	const router = useRouter();
@@ -17,7 +17,7 @@ const page = () => {
 		if(isSignedIn) {
 			router.push("/dashboard");
 		}
-	}, [userId, router])
+	}, [isSignedIn, userId, router])
 	
 	return (
 		<>
@@ -35,4 +35,4 @@ const page = () => {
 		</>
 	);
 };
-export default page;
+export default Page;
