@@ -20,3 +20,5 @@
 /coverage
 
 /.env.local.next
+/.env.local
+.env.local
