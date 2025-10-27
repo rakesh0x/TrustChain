@@ -63,7 +63,7 @@ export function CheckdocumentfromTrustchain() {
         setDocumentData([{
           hash: foundDoc.hash,
           contractAddress: contractAddress || "",
-          timestamp: UnixTimeToIST(foundDoc.timestamp?.
+          timestamp: UnixTimeToIST(foundDoc.timestamp?.toString() || "")
         }])
 
         toast.toast({ 
@@ -92,7 +92,7 @@ export function CheckdocumentfromTrustchain() {
   };
   const UnixTimeToIST = (timestamp: any) => {
     const date = new Date((timestamp) * 1000);
-    console.log(date.toUTCString());
+    return date.toLocaleString("en-IN", { timeZone: "Asia/Kolkata" });
   };
   
 

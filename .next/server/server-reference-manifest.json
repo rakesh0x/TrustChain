@@ -2,12 +2,6 @@
   "node": {
     "7ff93ba213a4c7ccb057df9e38e3ac8e48f884c158": {
       "workers": {
-        "app/dashboard/page": {
-          "moduleId": "[project]/Documents/Projects/Truedocs/truedocs/.next-internal/server/app/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/Documents/Projects/Truedocs/truedocs/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Documents/Projects/Truedocs/truedocs/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "detectKeylessEnvDriftAction",
-          "filename": "Documents/Projects/Truedocs/truedocs/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
-        },
         "app/page": {
           "moduleId": "[project]/Documents/Projects/Truedocs/truedocs/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/Documents/Projects/Truedocs/truedocs/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Documents/Projects/Truedocs/truedocs/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": false,
@@ -16,7 +10,6 @@
         }
       },
       "layer": {
-        "app/dashboard/page": "action-browser",
         "app/page": "action-browser"
       },
       "filename": "Documents/Projects/Truedocs/truedocs/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js",
@@ -24,12 +17,6 @@
     },
     "7fdc1a0ea142e4e8e0e7412d61f18e41955178250a": {
       "workers": {
-        "app/dashboard/page": {
-          "moduleId": "[project]/Documents/Projects/Truedocs/truedocs/.next-internal/server/app/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/Documents/Projects/Truedocs/truedocs/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Documents/Projects/Truedocs/truedocs/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "invalidateCacheAction",
-          "filename": "Documents/Projects/Truedocs/truedocs/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js"
-        },
         "app/page": {
           "moduleId": "[project]/Documents/Projects/Truedocs/truedocs/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/Documents/Projects/Truedocs/truedocs/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Documents/Projects/Truedocs/truedocs/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": false,
@@ -38,7 +25,6 @@
         }
       },
       "layer": {
-        "app/dashboard/page": "action-browser",
         "app/page": "action-browser"
       },
       "filename": "Documents/Projects/Truedocs/truedocs/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js",
@@ -46,12 +32,6 @@
     },
     "7fe64ad6e4be13c201565093f9c3d175c92d18d139": {
       "workers": {
-        "app/dashboard/page": {
-          "moduleId": "[project]/Documents/Projects/Truedocs/truedocs/.next-internal/server/app/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/Documents/Projects/Truedocs/truedocs/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Documents/Projects/Truedocs/truedocs/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "createOrReadKeylessAction",
-          "filename": "Documents/Projects/Truedocs/truedocs/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
-        },
         "app/page": {
           "moduleId": "[project]/Documents/Projects/Truedocs/truedocs/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/Documents/Projects/Truedocs/truedocs/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Documents/Projects/Truedocs/truedocs/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": false,
@@ -60,7 +40,6 @@
         }
       },
       "layer": {
-        "app/dashboard/page": "action-browser",
         "app/page": "action-browser"
       },
       "filename": "Documents/Projects/Truedocs/truedocs/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js",
