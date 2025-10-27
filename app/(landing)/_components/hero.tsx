@@ -6,6 +6,10 @@ import { Button } from '../../../components/ui/button';
 import { siEthereum, siNextdotjs, siReact, siShadcnui, siWagmi, siEthers, siSolidity } from 'simple-icons';
 import { ArrowRight } from 'lucide-react';
 import Link from 'next/link';
+import { useAuth, useSignIn, SignInButton, SignOutButton } from "@clerk/nextjs";
+import { useRouter } from "next/navigation";
+import { useCallback } from "react";
+
 
 const InfiniteSlider = dynamic(() => import('../../../components/ui/infinite-slider').then((mod) => mod.InfiniteSlider), { ssr: false });
 const ProgressiveBlur = dynamic(() => import('../../../components/ui/progressive-blur').then((mod) => mod.ProgressiveBlur), { ssr: false });
@@ -36,28 +40,39 @@ export const AnimatedLink = ({ href, text }: { href: string; text: string }) => 
 );
 
 // Reusable call-to-action buttons component
-const CTAButtons = () => (
-  <AnimatedGroup
-    variants={{
-      container: { visible: { transition: { staggerChildren: 0.05, delayChildren: 0.75 } } },
-      ...transitionVariants,
-    }}
-    className='mt-10 flex flex-col items-center justify-center gap-2 md:flex-row'
-  >
-    <div key={1} className='bg-foreground/10 border p-0.5'>
-      <Button asChild size='lg' className='rounded-none px-4 text-sm'>
-        <Link href='/smart-contracts'>
-          <span className='whitespace-nowrap'>Start Uploading</span>
-        </Link>
+const CTAButtons = () => {
+  const { isSignedIn } = useAuth();
+  const router = useRouter();
+
+  const handleStartClick = () => {
+    if (isSignedIn) {
+      router.push("/dashboard");
+    }
+    // Otherwise, clicking the SignInButton will open the modal
+  };
+
+  return (
+    <div className="mt-10 flex flex-col items-center justify-center gap-2 md:flex-row">
+      {isSignedIn ? (
+        <Button size="lg" className="rounded-none px-4 text-sm" onClick={handleStartClick}>
+          Start Uploading
+        </Button>
+      ) : (
+        <SignInButton mode="modal">
+          <Button size="lg" className="rounded-none px-4 text-sm">
+            Start Uploading
+          </Button>
+        </SignInButton>
+      )}
+
+      <Button size="lg" variant="outline" className="h-10 rounded-none px-4 text-sm">
+        Start Exploring
       </Button>
     </div>
-    <Button key={2} asChild size='lg' variant='outline' className='h-10 rounded-none px-4 text-sm'>
-      <Link href='/smart-contracts'>
-        <span className='whitespace-nowrap'>Get Started</span>
-      </Link>
-    </Button>
-  </AnimatedGroup>
-);
+  );
+};
+
+
 
 // Tech slider component
 const TechSlider = () => {

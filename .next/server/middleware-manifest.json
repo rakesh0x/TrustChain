@@ -1,6 +1,40 @@
 {
   "version": 3,
-  "middleware": {},
-  "sortedMiddleware": [],
+  "middleware": {
+    "/": {
+      "files": [
+        "server/edge/chunks/Documents_Projects_Truedocs_truedocs_caff90dc._.js",
+        "server/edge/chunks/bb142_@clerk_backend_dist_31af3cf3._.js",
+        "server/edge/chunks/bb142_@clerk_nextjs_dist_esm_d1089807._.js",
+        "server/edge/chunks/bb142_@clerk_1f2ba49e._.js",
+        "server/edge/chunks/[root-of-the-server]__b3ec7f0e._.js",
+        "server/edge/chunks/turbopack-Documents_Projects_Truedocs_truedocs_edge-wrapper_5666d983.js"
+      ],
+      "name": "middleware",
+      "page": "/",
+      "matchers": [
+        {
+          "regexp": "^(?:\\/(_next\\/data\\/[^/]{1,}))?(?:\\/((?!_next|[^?]*\\.(?:html?|css|js(?!on)|jpe?g|webp|png|gif|svg|ttf|woff2?|ico|csv|docx?|xlsx?|zip|webmanifest)).*))(\\\\.json)?[\\/#\\?]?$",
+          "originalSource": "/((?!_next|[^?]*\\.(?:html?|css|js(?!on)|jpe?g|webp|png|gif|svg|ttf|woff2?|ico|csv|docx?|xlsx?|zip|webmanifest)).*)"
+        },
+        {
+          "regexp": "^(?:\\/(_next\\/data\\/[^/]{1,}))?(?:\\/(api|trpc))(.*)(\\\\.json)?[\\/#\\?]?$",
+          "originalSource": "/(api|trpc)(.*)"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "development",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "cYheEjzwJkf6fPv+Fro7L9ewcMj3UuN1HL4vRthTK+4=",
+        "__NEXT_PREVIEW_MODE_ID": "0b079a7583bbf7a99a6c2f3f109b5a29",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "f9ca3c43dcbe4ed48cc7c42dcdf3327ac2930524b713a688027b88116694e432",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "52d076e7ace38bde48487ce4a1e108486baa3a86357570037756270251c21044"
+      }
+    }
+  },
+  "sortedMiddleware": [
+    "/"
+  ],
   "functions": {}
 }

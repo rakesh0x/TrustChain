@@ -1,12 +1,24 @@
+"use client"
 import Features from "./(landing)/_components/features";
 import Hero from "./(landing)/_components/hero";
 import Navbar from "./(landing)/_components/navbar";
 import CTA from "./(landing)/_components/cts";
 import Footer from "./(landing)/_components/footer";
 import Pricing from "./pricing";
-
+import { useAuth } from "@clerk/nextjs";
+import { useRouter } from "next/navigation";
+import { useEffect } from "react";
 
 const page = () => {
+	const { userId, isSignedIn } = useAuth();
+
+	const router = useRouter();
+	useEffect(() => {
+		if(isSignedIn) {
+			router.push("/dashboard");
+		}
+	}, [userId, router])
+	
 	return (
 		<>
 			<Navbar />

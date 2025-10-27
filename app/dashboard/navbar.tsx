@@ -2,6 +2,8 @@
 
 import { Bell, User } from "lucide-react";
 import { Button } from "../../components/ui/button";
+import { SignInButton, SignUpButton, UserButton, SignedIn, SignedOut } from '@clerk/nextjs';
+
 export function Navbar() {
   return (
     <header className="border-border bg-card/50 sticky top-0 h-16 w-full border-b backdrop-blur-sm">
@@ -15,9 +17,18 @@ export function Navbar() {
             <Bell className="h-4 w-4" />
           </Button>
 
-          <Button variant="ghost" size="sm">
-            <User className="h-4 w-4" />
-          </Button>
+          {/* Clerk Auth Buttons */}
+          <SignedOut>
+            <SignInButton>
+              <Button variant="ghost" size="sm">Sign In</Button>
+            </SignInButton>
+            <SignUpButton>
+              <Button variant="ghost" size="sm">Sign Up</Button>
+            </SignUpButton>
+          </SignedOut>
+          <SignedIn>
+            <UserButton afterSignOutUrl="/dashboard" />
+          </SignedIn>
         </div>
       </div>
     </header>
