@@ -22,3 +22,5 @@
 /.env.local.next
 /.env.local
 .env.local
+
+# Remove yarn.lock to fix broken dependency issue
